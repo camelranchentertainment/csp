@@ -27,13 +27,14 @@ export default function RequirementsBrowser() {
   const [state, setState] = useState("ALL");
   const [status, setStatus] = useState("ALL");
 
-  // Progressive enhancement: honor a ?section= deep link once mounted in
-  // the browser, without blocking the static prerender of the full list.
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const s = params.get("section");
-    if (s) setSection(Number(s));
-  }, []);
+ // Progressive enhancement: honor a ?section= deep link once mounted in
+   // the browser, without blocking the static prerender of the full list.
+   useEffect(() => {
+     const params = new URLSearchParams(window.location.search);
+     const s = params.get("section");
+     // eslint-disable-next-line react-hooks/set-state-in-effect
+     if (s) setSection(Number(s));
+   }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
