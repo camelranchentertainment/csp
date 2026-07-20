@@ -1,0 +1,37 @@
+[
+  {
+    "code": "CO",
+    "name": "Colorado",
+    "regulatoryBody": "CO MED / Hemp Division",
+    "requirementCount": 41,
+    "distinct": "Sets the program**'**s highest structural floor: mandatory annual third-party cGMP audit for hemp safe-harbor registrants \u2014 this alone determines the base Canna-Safe surveillance cadence for Colorado-licensed clients regardless of risk tier."
+  },
+  {
+    "code": "CA",
+    "name": "California",
+    "regulatoryBody": "CA Department of Cannabis Control (DCC)",
+    "requirementCount": 40,
+    "distinct": "Governs product-design child-safety rules, tincture alcohol-content/dual-licensure triggers (DCC \u00a717302 family), and packaging requirements \u2014 several items are flagged in the register as pending full regulatory-text verification."
+  },
+  {
+    "code": "WA",
+    "name": "Washington",
+    "regulatoryBody": "WA Liquor & Cannabis Board (LCB) / WSDA",
+    "requirementCount": 45,
+    "distinct": "The most prescriptive state in the framework: explicit homogenization mandate, dual-agency (WSDA + LCB) recipe approval, TCS-food and frozen-dessert exclusions, and numeric water-activity thresholds."
+  },
+  {
+    "code": "MO",
+    "name": "Missouri",
+    "regulatoryBody": "MO DHSS / DCR",
+    "requirementCount": 39,
+    "distinct": "Categorically excludes cannabis-infused frozen desserts and acidified foods \u2014 a hard binary exclusion rather than a risk-managed permission, unique among the five target states."
+  },
+  {
+    "code": "AR",
+    "name": "Arkansas",
+    "regulatoryBody": "AR ABC / Cannabis Division",
+    "requirementCount": 38,
+    "distinct": "Shares dosage-cap and child-appeal packaging restrictions with the other four states; several Arkansas-specific citations are drawn from the AR NORML regulatory summary pending primary-source verification."
+  }
+]

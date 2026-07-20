@@ -1,0 +1,2057 @@
+[
+  {
+    "section": 1,
+    "title": "Food Safety & Quality Management System Governance",
+    "expectedCount": 10,
+    "requirements": [
+      {
+        "id": "1.01",
+        "title": "Written Food Safety ****&**** Quality Policy",
+        "statement": "Facility maintains a written Food Safety & Quality Policy, signed by senior leadership, communicated to all personnel, and reviewed at least annually.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/INT",
+        "source": "MFI Supplier Expectation Manual governance section (analog); GFSI Code Ed. 9/SQF Code Ed. 10 \u00a72.1.1 pattern",
+        "auditorNote": "No direct 21 CFR 117 equivalent. Verify signature is current-year and policy references cannabis-specific hazards, not generic food-safety boilerplate."
+      },
+      {
+        "id": "1.02",
+        "title": "Documented management commitment",
+        "statement": "Facility demonstrates documented management commitment to food safety/quality: budget allocation, staffing levels, and leadership participation in food safety meetings are evidenced.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/INT/OBS",
+        "source": "MFI Supplier Expectation Manual (analog)",
+        "auditorNote": "Interview site leadership directly, not just the QA manager. Look for capital spend on sanitation/EMP/testing in the last 12 months as objective evidence."
+      },
+      {
+        "id": "1.03",
+        "title": "Functionally independent QA reporting line",
+        "statement": "Facility maintains a current organizational chart identifying food safety/quality reporting lines, with QA/QC functionally independent from Production/Operations management.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "MFI Supplier Expectation Manual; GFSI structural-independence principle",
+        "auditorNote": "Flag as a finding if QA reports through Plant Manager/Operations rather than a separate quality or corporate line."
+      },
+      {
+        "id": "1.04",
+        "title": "Qualified individual with PCQI-equivalent training",
+        "statement": "Facility designates a qualified individual responsible for food safety/quality oversight, with documented training/qualifications equivalent to a PCQI standard, even where state cannabis law does not explicitly require PCQI certification.",
+        "states": "CO, CA, WA, MO, AR (UNIV best practice)",
+        "category": "MAND (FOOD/TINC); VOL (TOPI)",
+        "status": "Mixed",
+        "method": "DOC",
+        "source": "21 CFR 117.4(b)",
+        "auditorNote": "Single most important crosswalk point in the program: infused edibles/tinctures are 'food' for adulteration purposes even where FDA does not regulate cannabis itself. Topicals are the exception."
+      },
+      {
+        "id": "1.05",
+        "title": "Risk-based internal audit program",
+        "statement": "Facility maintains a documented, risk-based internal audit program covering GMP, sanitation, and process control areas at a minimum annual frequency, with findings tracked to closure.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "MFI Supplier Expectation Manual; SQF Code Ed. 10 \u00a72.4 pattern; CO annual audit mandate",
+        "auditorNote": "For Colorado, cross-reference whether the internal audit calendar feeds the mandatory annual third-party audit, or runs as a disconnected, duplicate exercise."
+      },
+      {
+        "id": "1.06",
+        "title": "Semi-annual management review",
+        "statement": "Facility conducts documented management review of food safety/quality performance (audit results, complaints, recalls/mock recalls, EMP trends, testing failures) at a minimum semi-annual frequency.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/INT",
+        "source": "MFI Supplier Expectation Manual (analog)",
+        "auditorNote": "Look for evidence of action, not just meeting minutes."
+      },
+      {
+        "id": "1.07",
+        "title": "Current, valid, unencumbered state licensure",
+        "statement": "Facility maintains current, valid state cannabis manufacturing/processing licensure with no active suspensions, revocation proceedings, or unresolved compliance holds, verified against the state regulatory body's public license lookup.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "CO MED/Hemp Division; CA DCC; WA LCB; MO DHSS/DCR; AR ABC/Cannabis Division",
+        "auditorNote": "Pre-audit desk check, independently verified against the state's public database, not just a paper license pulled on-site."
+      },
+      {
+        "id": "1.08",
+        "title": "Regulatory change management process",
+        "statement": "Facility has a documented process for monitoring, evaluating, and implementing changes to applicable state cannabis regulations and food safety code updates.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/INT",
+        "source": "Derived requirement",
+        "auditorNote": "Ask specifically how the facility learned of and responded to the most recent rule change in their state."
+      },
+      {
+        "id": "1.09",
+        "title": "Document control system",
+        "statement": "Facility maintains a document control system ensuring current-version SOPs/records are in use at point-of-use, obsolete versions are retired/marked, and records are legible, complete, and attributable.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.190; MFI Supplier Expectation Manual document control section",
+        "auditorNote": "Check for version-control drift on the floor against the QA office's master file."
+      },
+      {
+        "id": "1.10",
+        "title": "Record retention meeting the longer of federal or state minimums",
+        "statement": "Facility maintains a documented record retention program meeting the longer of: state cannabis regulatory retention period, or 21 CFR 117.310 food record retention minimums.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.310; state cannabis retention rules",
+        "auditorNote": "State cannabis retention periods frequently exceed the federal minimum for track-and-trace/testing records."
+      }
+    ]
+  },
+  {
+    "section": 2,
+    "title": "Facility Design, Grounds & Plant Construction",
+    "expectedCount": 14,
+    "requirements": [
+      {
+        "id": "2.01",
+        "title": "Grounds maintained against pest attraction",
+        "statement": "Grounds are maintained to minimize pest attraction and harborage: no standing water, overgrown vegetation, debris accumulation, or improperly stored equipment adjacent to the building.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.20(a)",
+        "auditorNote": "Walk the full perimeter, including areas near HVAC intakes and dumpster pads."
+      },
+      {
+        "id": "2.02",
+        "title": "Exterior sealed against pest entry",
+        "statement": "Facility exterior (walls, roof, foundation) is maintained to prevent pest entry and environmental contamination; no unsealed gaps, holes, or deteriorated construction materials.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.20(a)",
+        "auditorNote": "Pay particular attention to dock doors, conduit penetrations, and roofline."
+      },
+      {
+        "id": "2.03",
+        "title": "Sound, cleanable interior construction",
+        "statement": "Plant construction (floors, walls, ceilings) is of sound, durable, cleanable material appropriate to the operation; no unsealed porous surfaces, cracked flooring, or exposed insulation in processing/storage areas.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.20(b)(1)-(2)",
+        "auditorNote": "Verify floor coating and wall material were actually upgraded to washdown-rated finish in retrofit facilities, not just painted over."
+      },
+      {
+        "id": "2.04",
+        "title": "Adequate, shielded lighting",
+        "statement": "Adequate lighting is provided in all areas where food/product is examined, processed, or stored, and light fixtures over exposed product are shatter-resistant or shielded.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.20(b)(4)",
+        "auditorNote": "Check specifically over open extraction vessels, infusion kettles, and packaging lines, and smaller ancillary rooms."
+      },
+      {
+        "id": "2.05",
+        "title": "Ventilation adequate to control odor, vapor, and condensation",
+        "statement": "Adequate ventilation is provided to minimize odors, vapors (including solvent vapors in extraction areas), and condensation that could contribute to contamination.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.20(b)(5)",
+        "auditorNote": "Overlaps with the odor-control-plan requirement (2.12) but is distinct \u2014 score independently."
+      },
+      {
+        "id": "2.06",
+        "title": "Pest exclusion at openings",
+        "statement": "Screening, air curtains, or other effective means are used to minimize pest/insect entry at doors, windows, and other openings kept open for operational reasons.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.20(b)(6)",
+        "auditorNote": "Verify strip curtains or air curtains are functional, not just installed and broken."
+      },
+      {
+        "id": "2.07",
+        "title": "Traffic-flow separation between raw intake and finished product",
+        "statement": "Facility layout provides adequate separation between raw/unsanitized cannabis material intake and finished infused-product areas to prevent cross-contamination.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.20(a); GFSI zoning-risk methodology",
+        "auditorNote": "Trace actual product and personnel flow on a walkthrough rather than relying on a posted flow diagram."
+      },
+      {
+        "id": "2.08",
+        "title": "Zone-based risk classification and separation",
+        "statement": "Where zone-based risk classification is used (Zone 1 exposed product / Zone 2 immediately adjacent / Zone 3 general production / Zone 4 non-production), physical or procedural controls enforce zone separation.",
+        "states": "UNIV (best practice)",
+        "category": "MAND (FOOD/TINC/beverage); VOL (TOPI)",
+        "status": "Mixed",
+        "method": "OBS/DOC",
+        "source": "FDA EMP guidance; MFI EMP zone-map expectation",
+        "auditorNote": "Cross-reference with the EMP zone map in Section 5; don't double-score."
+      },
+      {
+        "id": "2.09",
+        "title": "Separation of non-production areas",
+        "statement": "Non-production areas (employee break rooms, restrooms, offices) are physically separated from production/storage areas such that they do not create a contamination pathway.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.20(b)(3), (c)",
+        "auditorNote": "Ask about air-handling separation specifically where break rooms were carved out of former grow rooms."
+      },
+      {
+        "id": "2.10",
+        "title": "Adequate plumbing and backflow prevention",
+        "statement": "Plumbing is of adequate size/design, properly conveys sewage/liquid waste, and does not constitute a source of contamination (no cross-connections, adequate floor drainage, backflow prevention devices installed and tested).",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.20(c)",
+        "auditorNote": "Request backflow prevention device testing records, not just visual presence of the device."
+      },
+      {
+        "id": "2.11",
+        "title": "Toxic material storage separation",
+        "statement": "Toxic materials (cleaning chemicals, pesticides, lubricants, extraction solvents) are identified, stored, and labeled to prevent contamination of product, food-contact surfaces, or packaging; storage is physically separated from production/storage areas.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.35(d)",
+        "auditorNote": "For extraction-equipped facilities, verify bulk solvent storage meets fire code/hazmat separation in addition to food-contamination separation."
+      },
+      {
+        "id": "2.12",
+        "title": "Certified odor control plan",
+        "statement": "Facility has developed, implemented, and maintains a documented odor control plan, reviewed and certified as sufficient by a professional engineer or certified industrial hygienist prior to commencing operations; compliant with local odor ordinances.",
+        "states": "CO, CA, WA (verify current local ordinance)",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State/local cannabis odor ordinance requirements",
+        "auditorNote": "Odor ordinances are frequently municipal, not state-level \u2014 verify live at each audit."
+      },
+      {
+        "id": "2.13",
+        "title": "Security infrastructure coexisting with sanitation zoning",
+        "statement": "Facility design accommodates required security infrastructure (video surveillance, intrusion detection, vault/safe storage) per state cannabis licensing security requirements, without compromising food-safety traffic-flow or sanitation zoning.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "State cannabis licensing security rules",
+        "auditorNote": "Verify camera housings don't create sanitation blind spots over exposed product zones."
+      },
+      {
+        "id": "2.14",
+        "title": "Adequately sized, non-commingled storage",
+        "statement": "Facility maintains adequate, designated space for cannabis and non-cannabis ingredient/material storage that prevents commingling, physical damage, and temperature/humidity excursion, sized appropriately for actual production volume.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.20(b) general adequacy principle",
+        "auditorNote": "Over-capacity storage (product staged in aisles/hallways) is a frequent finding in scaling operations."
+      }
+    ]
+  },
+  {
+    "section": 3,
+    "title": "Equipment & Utensil Design/Maintenance",
+    "expectedCount": 14,
+    "requirements": [
+      {
+        "id": "3.01",
+        "title": "Cleanable, food-grade equipment construction",
+        "statement": "Equipment and utensils are designed, constructed, and installed to facilitate cleaning and maintenance; food-contact surfaces are smooth, non-porous, non-toxic, and free of pits, cracks, or crevices.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.40(a)(1)-(2)",
+        "auditorNote": "Verify food-contact surfaces on repurposed industrial/pharma equipment are actually food-grade."
+      },
+      {
+        "id": "3.02",
+        "title": "Chemical-compatible food-contact surfaces",
+        "statement": "Food-contact surfaces are corrosion-resistant and compatible with the product, cleaning compounds, and sanitizing agents used.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.40(a)(2)",
+        "auditorNote": "Verify against actual chemical inventory, not just a spec sheet."
+      },
+      {
+        "id": "3.03",
+        "title": "Smoothly bonded seams",
+        "statement": "Seams on food-contact surfaces are smoothly bonded or maintained to minimize accumulation of food particles, dirt, and organic matter.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.40(a)(2)",
+        "auditorNote": "Inspect welds under magnification/flashlight where visual access allows."
+      },
+      {
+        "id": "3.04",
+        "title": "Adequate service clearance",
+        "statement": "Equipment in areas where food is manipulated is installed to allow adequate access for cleaning and inspection (clearance from walls/floors, or is readily movable).",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.40(a)(3)",
+        "auditorNote": "Measure clearance where it looks marginal rather than estimating visually."
+      },
+      {
+        "id": "3.05",
+        "title": "Contamination-protective holding and conveying systems",
+        "statement": "Holding, conveying, and storage systems (hoppers, augers, piping, tanks) are designed to protect product from contamination and are constructed of materials that do not adulterate the product.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.40(a)(4)",
+        "auditorNote": "Verify piping runs, not just vessels, meet food-grade standard for beverage lines."
+      },
+      {
+        "id": "3.06",
+        "title": "Accurate, maintained measuring instruments",
+        "statement": "Instruments and controls used for measuring, regulating, or recording temperatures, pH, water activity, or other critical parameters are accurate, precise, and adequately maintained.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.40(a)(5)",
+        "auditorNote": "Feeds into the calibration program (3.08); score separately."
+      },
+      {
+        "id": "3.07",
+        "title": "Treated compressed gases",
+        "statement": "Compressed air or other gases introduced into food or used to clean food-contact surfaces/equipment are treated to prevent contamination (filtered, oil-free where applicable).",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.40(a)(6)",
+        "auditorNote": "Directly relevant to CO2 extraction systems and pneumatic product-transfer lines."
+      },
+      {
+        "id": "3.08",
+        "title": "Documented calibration program",
+        "statement": "Facility maintains a documented equipment calibration program (scales, thermometers, pH meters, water activity meters, dosing/metering equipment) with defined frequency, tolerance, and out-of-tolerance corrective action.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.40(a)(5); MFI calibration program expectation",
+        "auditorNote": "Dosing/metering equipment calibration carries higher stakes since it supports label-claim accuracy."
+      },
+      {
+        "id": "3.09",
+        "title": "Qualified dosing/homogenization equipment",
+        "statement": "Dosing, metering, and homogenization equipment used to achieve uniform cannabinoid distribution is qualified/validated at installation and requalified after any modification, relocation, or major maintenance event.",
+        "states": "UNIV (equipment-specific)",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "WAC 314-55-077(8) homogenization mandate + standard equipment-validation practice",
+        "auditorNote": "Request batch-uniformity validation study documentation, not just a maintenance log."
+      },
+      {
+        "id": "3.10",
+        "title": "Equipment maintained free of improvised repairs",
+        "statement": "Utensils and equipment used in producing, holding, or conveying food are maintained in a state of repair sufficient to prevent contamination (no chipped, cracked, corroded, or improvised/jury-rigged components).",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.40(a)(1)-(2)",
+        "auditorNote": "Watch for duct-tape, zip-tie, or improvised repairs."
+      },
+      {
+        "id": "3.11",
+        "title": "Controlled single-service articles",
+        "statement": "Single-service and single-use articles (where used) are stored, handled, and dispensed to protect against contamination, and are not reused.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mixed",
+        "method": "OBS",
+        "source": "21 CFR 117.40(b)",
+        "auditorNote": "Status conditional on whether the facility's process uses single-service articles."
+      },
+      {
+        "id": "3.12",
+        "title": "Preventive maintenance program with tracked completion",
+        "statement": "Facility maintains a documented preventive maintenance (PM) program for all production equipment, distinct from reactive/breakdown maintenance, with PM schedules tracked to completion.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Derived \u2014 GFSI/MFI PM program expectation",
+        "auditorNote": "Ask for the trailing-12-month PM completion rate, not just the schedule."
+      },
+      {
+        "id": "3.13",
+        "title": "Fire/safety-code-certified extraction equipment",
+        "statement": "Extraction equipment (CO2, ethanol, hydrocarbon, or other solvent-based systems) is designed, installed, and certified in accordance with applicable fire/safety code in addition to food-contact material standards.",
+        "states": "CO, CA, WA, MO, AR (verify local fire code adoption)",
+        "category": "FOOD, TINC (extract-derived inputs)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "NFPA 1 / local fire marshal certification requirements",
+        "auditorNote": "Document as a critical finding with a referral note; final compliance rests with the fire marshal."
+      },
+      {
+        "id": "3.14",
+        "title": "Validated CIP/COP cleaning",
+        "statement": "Equipment cleaning-in-place (CIP) or clean-out-of-place (COP) systems are validated to achieve effective residue removal, with validation repeated after any significant equipment or process change.",
+        "states": "UNIV (where CIP/COP used)",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing CIP validation practice",
+        "auditorNote": "Benchmark against a documented CIP sequence (pre-rinse, alkaline wash, intermediate rinse, acid rinse, sanitizer with ATP verification)."
+      }
+    ]
+  },
+  {
+    "section": 4,
+    "title": "Sanitation Program & Master Cleaning Schedule",
+    "expectedCount": 14,
+    "requirements": [
+      {
+        "id": "4.01",
+        "title": "Written Master Sanitation Schedule",
+        "statement": "Facility maintains a written Master Sanitation Schedule (MSS) identifying all equipment, surfaces, and areas requiring cleaning/sanitizing, with defined frequency, method, and responsible party for each item.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(a)",
+        "auditorNote": "Verify the MSS covers ancillary equipment (staging carts, overflow racks) often omitted."
+      },
+      {
+        "id": "4.02",
+        "title": "Detailed SSOPs",
+        "statement": "Facility maintains written Sanitation Standard Operating Procedures (SSOPs) for each cleaning task on the MSS, specifying disassembly steps, chemical concentration, contact time, water temperature, and reassembly/verification steps.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(a)",
+        "auditorNote": "Generic 'clean and sanitize equipment' language is functionally non-compliant."
+      },
+      {
+        "id": "4.03",
+        "title": "Chemicals used per label and verified in practice",
+        "statement": "Cleaning compounds, sanitizing agents, and other chemicals used are safe and effective for their intended use, and are used in accordance with label instructions (concentration, contact time, temperature).",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.35(a), (d)",
+        "auditorNote": "Verify in-use sanitizer concentration with test strips during the walkthrough."
+      },
+      {
+        "id": "4.04",
+        "title": "Approved chemical list with current SDS",
+        "statement": "Facility maintains a documented chemical approval program: all cleaning/sanitizing chemicals in use are on an approved list, with current Safety Data Sheets (SDS) on file and accessible.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(d); OSHA 29 CFR 1910.1200",
+        "auditorNote": "Physically reconcile the chemical inventory against the approved list to catch unapproved substitutions."
+      },
+      {
+        "id": "4.05",
+        "title": "Contemporaneous, supervisor-verified sanitation records",
+        "statement": "Sanitation records (cleaning logs, pre-operational inspection results) are completed contemporaneously, are legible and complete, and are reviewed/verified by a supervisor or QA designee.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(a); 21 CFR 117.190",
+        "auditorNote": "Watch for signs of batch-completed records suggesting after-the-fact documentation."
+      },
+      {
+        "id": "4.06",
+        "title": "Pre-operational inspections with defined criteria",
+        "statement": "Pre-operational sanitation inspections are conducted prior to the start of production, covering food-contact surfaces, equipment, and the immediate production environment, with defined pass/fail criteria and corrective action for failures.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.35(a)",
+        "auditorNote": "Observe an actual pre-op inspection where audit timing allows."
+      },
+      {
+        "id": "4.07",
+        "title": "Objective cleaning-effectiveness verification",
+        "statement": "Verification of cleaning effectiveness is performed using an objective method (ATP bioluminescence swabbing, visual inspection checklist, or micro swabbing) with defined acceptance thresholds and corrective action for failing results.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing sanitation verification practice",
+        "auditorNote": "Benchmark against a threshold such as \u2264100 RLU (Hygiena SystemSURE Plus)."
+      },
+      {
+        "id": "4.08",
+        "title": "Objective chemical-concentration verification",
+        "statement": "Sanitation chemical concentrations are verified using an objective testing method (test strips, titration, or automated dispensing with concentration monitoring) at a defined frequency, not solely by visual/color estimation.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.35(d)",
+        "auditorNote": "Automated dispensing still needs a periodic independent verification check."
+      },
+      {
+        "id": "4.09",
+        "title": "Documented chemical/method approval process",
+        "statement": "Facility has a documented process for evaluating and approving new cleaning chemicals or sanitation methods prior to implementation, including compatibility assessment with equipment materials and product safety.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(d)",
+        "auditorNote": "Verify the approval process for the facility's most recently added chemical."
+      },
+      {
+        "id": "4.10",
+        "title": "Zone-designated cleaning tools",
+        "statement": "Cleaning tools (brushes, scrapers, cloths, mops) are color-coded or otherwise designated by zone/area to prevent cross-contamination between zones.",
+        "states": "UNIV",
+        "category": "MAND where zone separation applies; VOL otherwise",
+        "status": "Mixed",
+        "method": "OBS",
+        "source": "Derived \u2014 GFSI/MFI zone-separation methodology; cross-references 2.08",
+        "auditorNote": "Score in coordination with 2.08."
+      },
+      {
+        "id": "4.11",
+        "title": "Sanitary storage of cleaning tools",
+        "statement": "Cleaning tools and equipment (brushes, mops, buckets) are themselves cleaned, sanitized, and stored in a manner that prevents them from becoming a contamination source.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.35(d)",
+        "auditorNote": "Check under sinks and in janitorial closets for wet-stored tools."
+      },
+      {
+        "id": "4.12",
+        "title": "Non-production-area sanitation on the schedule",
+        "statement": "Non-production sanitation (restrooms, break rooms, locker rooms, employee entrances) is included on the Master Sanitation Schedule with defined frequency, even though these are not food-contact areas.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.35(a)",
+        "auditorNote": "Frequently the weakest link precisely because it's perceived as 'not food safety.'"
+      },
+      {
+        "id": "4.13",
+        "title": "Documented pathogen environmental control response",
+        "statement": "Facility maintains a documented Listeria/pathogen environmental control program response plan, distinct from routine sanitation, triggered by positive environmental monitoring results.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FDA EMP guidance; MFI EMP corrective action expectation",
+        "auditorNote": "Sanitation-side counterpart to Section 5's EMP program \u2014 coordinate scoring."
+      },
+      {
+        "id": "4.14",
+        "title": "Chemical storage separated to prevent odor/residue transfer",
+        "statement": "Sanitation chemical storage and use areas are separated from cannabis product storage/handling areas sufficient to prevent chemical odor or residue transfer to finished product.",
+        "states": "CO, CA, WA, MO, AR (universal best practice)",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "Derived \u2014 grounded in cannabis product**'**s odor/terpene-absorption characteristic",
+        "auditorNote": "No conventional food-GMP analog. Flag chemical storage adjacent to open product bins or curing rooms."
+      }
+    ]
+  },
+  {
+    "section": 5,
+    "title": "Environmental Monitoring Program (EMP)",
+    "expectedCount": 11,
+    "requirements": [
+      {
+        "id": "5.01",
+        "title": "Written EMP plan",
+        "statement": "Facility maintains a written Environmental Monitoring Program (EMP) plan defining target organisms (minimum: Listeria species/Listeria monocytogenes indicator, Salmonella where applicable), sampling sites, sampling frequency, and laboratory methodology.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FDA Environmental Monitoring guidance; MFI EMP program expectation",
+        "auditorNote": "Use documented EMP zone-map maturity structure as the internal benchmark."
+      },
+      {
+        "id": "5.02",
+        "title": "Zone-mapped sampling sites",
+        "statement": "EMP sampling sites are mapped and classified by zone (Zone 1-4), with a written zone map maintained and reviewed at least annually.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FDA EMP guidance zone methodology; cross-references 2.08",
+        "auditorNote": "Score in coordination with 2.08."
+      },
+      {
+        "id": "5.03",
+        "title": "Risk-based sampling frequency",
+        "statement": "EMP sampling frequency is risk-based and no less than the minimum defined in the written plan; high-risk Zone 1/Zone 2 sites are sampled at a frequency sufficient to detect resident-pathogen establishment.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FDA EMP guidance (risk-based frequency principle)",
+        "auditorNote": "Frequency should escalate in response to findings, not remain static."
+      },
+      {
+        "id": "5.04",
+        "title": "Accredited laboratory testing",
+        "statement": "Facility uses an accredited third-party laboratory (or internally validated equivalent method) for EMP pathogen testing, with turnaround time sufficient to support timely corrective action.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing EMP practice; ISO/IEC 17025",
+        "auditorNote": "Verify the lab's accreditation scope includes the target organism/matrix (cannabis-specific interference risk)."
+      },
+      {
+        "id": "5.05",
+        "title": "Defined positive-result corrective action",
+        "statement": "Facility maintains defined corrective action procedures for positive EMP results, including enhanced cleaning/sanitizing, root-cause investigation, expanded/vector sampling, and product disposition evaluation.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FDA EMP guidance; cross-references 4.13",
+        "auditorNote": "Coordinate scoring with 4.13 to avoid double-counting."
+      },
+      {
+        "id": "5.06",
+        "title": "EMP trend analysis reviewed by management",
+        "statement": "EMP results (positive and negative) are trended over time, with trend analysis reviewed as part of management review to identify recurring positive sites or increasing positivity rates.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing EMP trending practice; cross-references 1.06",
+        "auditorNote": "Ask to see the trend analysis output itself, not just raw inspection sheets."
+      },
+      {
+        "id": "5.07",
+        "title": "Escalated response to resident-positive sites",
+        "statement": "A resident-positive site (repeated positive result at the same location after corrective action) triggers an escalated investigation, including consideration of harborage points, equipment modification, or decommissioning if remediation fails.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FDA EMP guidance (resident-pathogen response principle)",
+        "auditorNote": "A facility claiming zero positives across years of testing should be scrutinized for under-sampling."
+      },
+      {
+        "id": "5.08",
+        "title": "Risk-appropriate finished/in-process product testing",
+        "statement": "Finished product or in-process product testing (pathogen or indicator organism) is conducted at a frequency and scope appropriate to the product's risk profile.",
+        "states": "CO, CA, WA, MO, AR (risk-based)",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mixed",
+        "method": "DOC",
+        "source": "Derived requirement \u2014 risk-based food safety testing principle",
+        "auditorNote": "Distinguish clearly from mandatory state potency/pesticide/heavy-metal testing in Section 9."
+      },
+      {
+        "id": "5.09",
+        "title": "Documented water-activity/moisture risk assessment",
+        "statement": "Facility conducts a documented water activity (aw) or moisture content risk assessment for each product formulation to determine appropriate EMP/testing rigor and shelf-life/storage requirements.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing risk assessment practice",
+        "auditorNote": "Flagged for Phase 1 hardening \u2014 WA's exact water activity numeric limits need full regulatory-text verification."
+      },
+      {
+        "id": "5.10",
+        "title": "Trained aseptic sampling technique",
+        "statement": "Employees involved in EMP sampling are trained in aseptic sampling technique to prevent false-positive contamination from improper swabbing practice.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC/INT",
+        "source": "Standard food-manufacturing EMP practice",
+        "auditorNote": "Ask the sampler to walk through their technique verbally as a practical test."
+      },
+      {
+        "id": "5.11",
+        "title": "Harborage-site coverage in sampling rotation",
+        "statement": "EMP sampling site rotation includes coverage of infrequently cleaned or hard-to-reach harborage-prone locations (drains, condensate lines, equipment framework, wheels/casters) in addition to routine high-visibility sites.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FDA EMP guidance (harborage-site coverage principle)",
+        "auditorNote": "Cross-check the full site list against actual drain/framework locations observed on the floor."
+      }
+    ]
+  },
+  {
+    "section": 6,
+    "title": "Pest Control",
+    "expectedCount": 10,
+    "requirements": [
+      {
+        "id": "6.01",
+        "title": "Licensed PCO or qualified in-house program",
+        "statement": "Facility contracts with a licensed pest control operator (PCO) or maintains an equivalently qualified in-house pest management program, with current licensure/certification on file.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(c)",
+        "auditorNote": "Verify PCO license is current and jurisdiction-specific; some states require separate applicator licensing near cannabis product."
+      },
+      {
+        "id": "6.02",
+        "title": "Current, reconciled device map",
+        "statement": "Facility maintains a current pest control device map identifying the location and type of all monitoring/control devices, reconciled against the physical facility layout.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.35(c); MFI device-mapping expectation",
+        "auditorNote": "Walk a sample of mapped device locations to confirm placement matches the map."
+      },
+      {
+        "id": "6.03",
+        "title": "Contamination-safe device placement",
+        "statement": "Pest control devices are not placed in a manner that creates a risk of product, ingredient, or packaging contamination.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.35(c)",
+        "auditorNote": "Insect light traps over exposed product staging is a recurring finding."
+      },
+      {
+        "id": "6.04",
+        "title": "Approved, licensed pesticide application",
+        "statement": "Pesticides used for structural/facility pest control are approved for use in a food-handling environment and applied only by licensed applicators, in accordance with label restrictions.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(d); EPA FIFRA",
+        "auditorNote": "Distinguish from cannabis cultivation pesticide-residue testing addressed in Section 9."
+      },
+      {
+        "id": "6.05",
+        "title": "Trended pest activity logs",
+        "statement": "Facility maintains pest activity trend logs (device inspection results, catch counts, activity by location) reviewed at a defined frequency to identify emerging infestation risk.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(c); MFI trending expectation",
+        "auditorNote": "Ask to see the trend analysis output itself, not just raw inspection sheets."
+      },
+      {
+        "id": "6.06",
+        "title": "Corrective action for confirmed pest findings",
+        "statement": "Facility has a documented corrective action process for confirmed pest activity findings, including root-cause investigation and verification of corrective action effectiveness.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.35(c)",
+        "auditorNote": "Trace the most recent actual pest finding through to closure."
+      },
+      {
+        "id": "6.07",
+        "title": "Employee pest-awareness training",
+        "statement": "Employees are trained to recognize and report signs of pest activity as part of routine GMP awareness.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/INT",
+        "source": "21 CFR 117.10",
+        "auditorNote": "Ask a floor-level employee what they'd do if they saw evidence of rodent activity."
+      },
+      {
+        "id": "6.08",
+        "title": "Receiving inspection for pest evidence",
+        "statement": "Incoming raw cannabis material and other ingredients are inspected upon receipt for evidence of pest infestation prior to acceptance into production.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.80(a); cross-references Section 9",
+        "auditorNote": "Coordinate scoring with Section 9's receiving-inspection control."
+      },
+      {
+        "id": "6.09",
+        "title": "Physical exclusion as the primary control layer",
+        "statement": "Facility maintains adequate physical exclusion as the primary pest-prevention layer, with chemical/mechanical control treated as a secondary, verification-based layer rather than the sole control.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.20(b)(6); cross-references 2.06",
+        "auditorNote": "Score in coordination with 2.06."
+      },
+      {
+        "id": "6.10",
+        "title": "Cannabis-specific pest/pathogen receiving criteria",
+        "statement": "Where cannabis-specific pests present a risk to incoming raw material quality, the facility's receiving inspection criteria explicitly address these pest/pathogen indicators, distinct from generic stored-product-pest inspection criteria.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "FOOD, TINC, TOPI (raw flower/biomass inputs)",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "Derived requirement",
+        "auditorNote": "Verify receiving staff are trained to distinguish cannabis-specific pest/mold indicators from generic stored-product evidence."
+      }
+    ]
+  },
+  {
+    "section": 7,
+    "title": "Water, Air, Steam & Compressed Gas Quality",
+    "expectedCount": 10,
+    "requirements": [
+      {
+        "id": "7.01",
+        "title": "Safe, adequate water source",
+        "statement": "Water used in food production (as an ingredient, for cleaning food-contact surfaces, or for handwashing) is from a safe and adequate source, meeting applicable safe drinking water standards.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.37(a)",
+        "auditorNote": "For well-water facilities, verify testing frequency matches or exceeds municipal-supply equivalency."
+      },
+      {
+        "id": "7.02",
+        "title": "Potability testing at defined frequency",
+        "statement": "Facility maintains water potability testing records at a defined frequency (minimum annual for municipal supply; more frequent for private well sources), with results within safe drinking water parameters.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.37(a)",
+        "auditorNote": "Benchmark against daily chlorine residual + quarterly full potability panel for well-sourced facilities."
+      },
+      {
+        "id": "7.03",
+        "title": "Monitored on-site treatment systems",
+        "statement": "Where water is treated on-site (chlorination, UV, filtration, reverse osmosis) prior to use, treatment system function is monitored and verified at a defined frequency, with residual/output levels recorded.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.37(a)",
+        "auditorNote": "Verify contemporaneous, non-repetitive readings."
+      },
+      {
+        "id": "7.04",
+        "title": "Cross-connection/backflow control",
+        "statement": "Cross-connection control is in place to prevent backflow/back-siphonage of non-potable water, chemicals, or wastewater into the potable water supply.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.37(a); cross-references 2.10",
+        "auditorNote": "Score in coordination with 2.10."
+      },
+      {
+        "id": "7.05",
+        "title": "Potable ice handling",
+        "statement": "Ice used in contact with food (if applicable) is made from potable water and is handled/stored to prevent contamination.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mixed",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.37(a)",
+        "auditorNote": "Applicable primarily to infused-beverage processors using ice in filling/cooling steps."
+      },
+      {
+        "id": "7.06",
+        "title": "Filtered/treated process gases",
+        "statement": "Compressed air and other process gases (nitrogen, CO2) that contact food or food-contact surfaces are filtered/treated to prevent contamination.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "21 CFR 117.40(a)(6); cross-references 3.07",
+        "auditorNote": "Score in coordination with 3.07."
+      },
+      {
+        "id": "7.07",
+        "title": "Food/beverage-grade extraction CO2",
+        "statement": "CO2 used in supercritical or subcritical extraction is food/beverage-grade and sourced from a supplier providing a current Certificate of Analysis confirming purity specifications.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "FOOD, TINC (extract-derived inputs)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard extraction-industry input-quality practice; cross-references Section 9",
+        "auditorNote": "Coordinate with Section 9's supplier/COA program."
+      },
+      {
+        "id": "7.08",
+        "title": "HVAC preventing condensation and airborne contamination",
+        "statement": "HVAC systems serving production areas are designed and maintained to prevent condensation dripping onto product/food-contact surfaces, and are filtered/maintained to minimize introduction of airborne contaminants.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.20(b)(5); cross-references 2.05",
+        "auditorNote": "Score in coordination with 2.05."
+      },
+      {
+        "id": "7.09",
+        "title": "Segregated air-handling between cultivation/curing and manufacturing",
+        "statement": "Where the facility's HVAC/air-handling system is shared or interconnected between cannabis cultivation/curing areas and infused-product manufacturing areas, air-handling separation or filtration is sufficient to prevent cross-contamination between zones.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "Derived requirement",
+        "auditorNote": "Priority item for vertically integrated operators; no conventional food-facility analog."
+      },
+      {
+        "id": "7.10",
+        "title": "Food-grade steam where used",
+        "statement": "Steam, where used as a direct or indirect food-contact heating medium, is generated using potable water and treated with only food-grade boiler additives, with no contact between food-grade steam lines and non-food-grade boiler treatment chemicals.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.37(a)",
+        "auditorNote": "Verify boiler additive SDS confirms food-grade/GRAS status."
+      }
+    ]
+  },
+  {
+    "section": 8,
+    "title": "Personnel Practices, Hygiene & Training",
+    "expectedCount": 10,
+    "requirements": [
+      {
+        "id": "8.01",
+        "title": "Personal cleanliness standards",
+        "statement": "Personnel working in direct contact with food, food-contact surfaces, or food-packaging materials maintain adequate personal cleanliness (clean outer garments, hair restraints, no jewelry other than plain wedding bands in exposed-product areas).",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.10(a)",
+        "auditorNote": "Watch specifically for rings/watches at hand-contact points on packaging lines."
+      },
+      {
+        "id": "8.02",
+        "title": "Adequate, used handwashing facilities",
+        "statement": "Handwashing facilities are conveniently located, adequately supplied, and personnel wash hands at appropriate points (upon entry, after breaks, after using the restroom, after handling waste).",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.10(b)",
+        "auditorNote": "Directly observe an actual entry/re-entry event rather than relying on posted signage."
+      },
+      {
+        "id": "8.03",
+        "title": "Restricted-item policy including personal cannabis use",
+        "statement": "Facility maintains a policy restricting food, gum, tobacco products (including personal cannabis consumption), and personal beverages to designated non-production areas, enforced consistently.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.10(c)",
+        "auditorNote": "Verify the policy explicitly addresses employee cannabis use/impairment during work hours."
+      },
+      {
+        "id": "8.04",
+        "title": "Illness reporting and exclusion",
+        "statement": "Personnel exhibiting symptoms of illness are excluded from operations that could result in product contamination, per a documented illness-reporting and exclusion policy.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/INT",
+        "source": "21 CFR 117.10(d)",
+        "auditorNote": "Interview a floor supervisor about the actual exclusion process and return-to-work criteria."
+      },
+      {
+        "id": "8.05",
+        "title": "Documented, verified GMP training",
+        "statement": "Facility maintains documented GMP/food-safety training for all personnel prior to starting work in production areas, with refresher training at a defined frequency (minimum annual) and training effectiveness verification.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.10(a)-(d)",
+        "auditorNote": "Request training records for recently hired employees specifically."
+      },
+      {
+        "id": "8.06",
+        "title": "Current, verified cannabis handler licensure",
+        "statement": "Personnel handling cannabis products maintain any state-required cannabis handler permit/license/badge, current and specific to the role performed, verified against the state's public registry where available.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State cannabis worker permit requirements",
+        "auditorNote": "Hard licensing gate \u2014 no food-GMP analog. Unlicensed handlers is a critical compliance failure independent of food-safety performance."
+      },
+      {
+        "id": "8.07",
+        "title": "Cannabis-specific safety training for extraction/concentrate roles",
+        "statement": "Personnel are trained on cannabis-specific safety considerations relevant to their role (solvent handling/extraction safety, cannabinoid exposure/overexposure symptoms, PPE requirements for concentrate handling).",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "FOOD, TINC (extraction/concentrate roles)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Derived requirement",
+        "auditorNote": "Overlaps with OSHA obligations; treated here as a leading indicator of operational culture."
+      },
+      {
+        "id": "8.08",
+        "title": "Visitor/contractor GMP orientation",
+        "statement": "Visitors and contractors entering production areas follow the same GMP/hygiene requirements as employees, and are provided a brief orientation prior to entry.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.10 (general applicability)",
+        "auditorNote": "Observe your own entry process as the auditor as a live test."
+      },
+      {
+        "id": "8.09",
+        "title": "Training matrix mapped to roles with gap remediation",
+        "statement": "Facility maintains a documented employee training matrix mapping required training topics to roles, with a mechanism to identify and remediate training gaps.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "MFI training matrix expectation (analog); 21 CFR 117.10",
+        "auditorNote": "Cross-check the matrix against actual floor assignments."
+      },
+      {
+        "id": "8.10",
+        "title": "Task-appropriate gloving with change policy",
+        "statement": "Personnel handling exposed product wear gloves appropriate to the task, with a documented glove-change policy and glove material appropriate to the process.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.10(a)",
+        "auditorNote": "Watch for glove reuse across zone transitions."
+      }
+    ]
+  },
+  {
+    "section": 9,
+    "title": "Approved Supplier & Ingredient Program",
+    "expectedCount": 10,
+    "requirements": [
+      {
+        "id": "9.01",
+        "title": "Documented approved supplier program",
+        "statement": "Facility maintains a documented approved supplier program for all raw material, ingredient, and packaging suppliers, with defined approval criteria and periodic reapproval/reassessment.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.410; MFI Supplier Expectation Manual (direct analog)",
+        "auditorNote": "Direct structural analog to the MFI supplier program."
+      },
+      {
+        "id": "9.02",
+        "title": "Commercially manufactured non-cannabis ingredients",
+        "statement": "With the exception of cannabis itself, all ingredients used in oral-ingestion infused products are sourced as commercially manufactured food from licensed/regulated food sources, not homemade or unregulated inputs.",
+        "states": "WA (explicit); UNIV best practice elsewhere pending verification",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mixed",
+        "method": "DOC",
+        "source": "WAC 314-55-077(7)",
+        "auditorNote": "Flagged for Phase 1 verification of an equivalent rule in CO/CA/MO."
+      },
+      {
+        "id": "9.03",
+        "title": "Current COAs/specification sheets on file",
+        "statement": "Non-cannabis ingredient suppliers provide current Certificates of Analysis (COA) and/or specification sheets verifying identity, quality, and safety parameters relevant to the ingredient's use.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.410; MFI COA verification expectation",
+        "auditorNote": "Sample a cross-section of COAs against actual specification requirements."
+      },
+      {
+        "id": "9.04",
+        "title": "Licensed-source cannabis input with chain of custody",
+        "statement": "Cannabis/hemp biomass, flower, or extract inputs are received only from licensed cultivators/processors, with chain-of-custody documentation verified against the state's seed-to-sale tracking system at receipt.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State track-and-trace system requirements (METRC, BioTrack, etc.)",
+        "auditorNote": "Cross-reference the physical delivery against the electronic manifest number-for-number."
+      },
+      {
+        "id": "9.05",
+        "title": "Lot-verified compliance testing prior to release",
+        "statement": "Each incoming lot of cannabis/hemp input is verified against its required state-mandated compliance testing (potency, pesticide residue, heavy metals, microbial/mycotoxin, residual solvent) prior to release into production, with test results retained and traceable to the specific lot.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-mandated cannabis compliance testing panels (varies by state)",
+        "auditorNote": "Flagged for Phase 1 hardening to build the full state-by-state analyte matrix."
+      },
+      {
+        "id": "9.06",
+        "title": "Documented failed-test disposition process",
+        "statement": "Facility has a documented process for evaluating and responding to out-of-specification or failed compliance testing results on incoming cannabis inputs, including hold, reject, and (where permitted) remediation procedures.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-specific failed-test remediation/disposition rules",
+        "auditorNote": "Verify the facility's stated remediation practice is actually permitted under current state rule."
+      },
+      {
+        "id": "9.07",
+        "title": "Certified child-resistant packaging suppliers",
+        "statement": "Packaging material suppliers (including child-resistant packaging components) provide documentation confirming compliance with applicable state child-resistant packaging certification standards prior to use.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State CRP requirements (referencing 16 CFR 1700.20)",
+        "auditorNote": "Cross-references Section 14 finished-package verification."
+      },
+      {
+        "id": "9.08",
+        "title": "Ongoing supplier performance monitoring",
+        "statement": "Facility conducts and documents periodic supplier performance monitoring as part of ongoing supplier reassessment, not solely at initial approval.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "MFI ongoing supplier monitoring expectation (direct analog)",
+        "auditorNote": "Request evidence of a supplier removed or placed on probation based on performance history."
+      },
+      {
+        "id": "9.09",
+        "title": "Risk-based approach to unverifiable lab COAs",
+        "statement": "Where a supplier COA cannot be independently verified against a state's public licensing/testing-lab-accreditation database, the facility has a documented risk-based approach for evaluating and documenting acceptance of that supplier relationship.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Derived requirement \u2014 documented industry lab-accreditation-integrity concerns",
+        "auditorNote": "Ask directly how the facility would know if their testing lab's results were unreliable."
+      },
+      {
+        "id": "9.10",
+        "title": "Full supplier/ingredient lot traceability",
+        "statement": "Facility maintains full traceability linking each finished product lot back to specific incoming cannabis input lot(s), non-cannabis ingredient lot(s), and packaging lot(s) used, sufficient to support a one-step-forward/one-step-back trace exercise.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.310; state track-and-trace lot-linkage requirements; cross-references Section 15",
+        "auditorNote": "Verifies the underlying data exists; Section 15 verifies actual trace execution."
+      }
+    ]
+  },
+  {
+    "section": 10,
+    "title": "Hazard Analysis & Preventive Controls (HARPC)",
+    "expectedCount": 11,
+    "requirements": [
+      {
+        "id": "10.01",
+        "title": "Written hazard analysis addressing cannabis-specific hazards",
+        "statement": "Facility has conducted and documented a written hazard analysis identifying known or reasonably foreseeable biological, chemical, and physical hazards for each product/process, consistent with 21 CFR 117 Subpart C methodology.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.130",
+        "auditorNote": "Verify explicit inclusion of cannabis-specific chemical hazards (residual solvent, pesticide carryover, heavy-metal uptake)."
+      },
+      {
+        "id": "10.02",
+        "title": "PCQI-overseen, periodically reassessed analysis",
+        "statement": "Hazard analysis is conducted or overseen by a qualified individual and is reviewed/reassessed upon any change to ingredients, process, equipment, or at minimum every three years.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.4(b), 117.126(a)",
+        "auditorNote": "Confirm the reassessment trigger list explicitly includes cannabis-specific changes."
+      },
+      {
+        "id": "10.03",
+        "title": "Preventive controls mapped to every identified hazard",
+        "statement": "Preventive controls (process, food allergen, sanitation, supply-chain) are identified for each hazard requiring a preventive control, with associated parameters and monitoring procedures documented.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.135",
+        "auditorNote": "Verify every identified hazard resolves to a specific, monitored preventive control."
+      },
+      {
+        "id": "10.04",
+        "title": "Documented process preventive control parameters",
+        "statement": "Process preventive controls include defined critical parameters with established critical limits, monitoring frequency, and documented monitoring records.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.135(c)(1)",
+        "auditorNote": "Apply the same rigor used for conventional food process control points."
+      },
+      {
+        "id": "10.05",
+        "title": "Sanitation preventive controls cross-referenced to Sections 4-5",
+        "statement": "Sanitation preventive controls (where identified as necessary to control an environmental pathogen hazard) are documented with monitoring, corrective action, and verification procedures, cross-referencing Sections 4 and 5.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.135(c)(3)",
+        "auditorNote": "Score plan documentation here; operational execution in Sections 4/5."
+      },
+      {
+        "id": "10.06",
+        "title": "Supply-chain preventive controls cross-referenced to Section 9",
+        "statement": "Supply-chain preventive controls (where identified as necessary to control a hazard that will be controlled by a supplier) are documented, with defined supplier verification activities appropriate to hazard risk.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.410, 117.415, 117.430; cross-references Section 9",
+        "auditorNote": "Section 9's compliance testing functions as the supply-chain PC verification activity."
+      },
+      {
+        "id": "10.07",
+        "title": "Written recall plan within the food safety plan",
+        "statement": "A written recall plan exists as part of the food safety plan, consistent with 21 CFR 117.139, cross-referencing Section 15.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.139",
+        "auditorNote": "Score plan existence here; execution/mock recall performance in Section 15."
+      },
+      {
+        "id": "10.08",
+        "title": "Signed, reassessed food safety plan",
+        "statement": "The food safety plan is reviewed and re-analyzed as required upon triggering events and is signed/dated by the qualified individual who performed or oversaw its preparation.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.126(a)-(b), 117.180",
+        "auditorNote": "Check the signature/date against the facility's actual operational timeline."
+      },
+      {
+        "id": "10.09",
+        "title": "Documented verification activities",
+        "statement": "Verification activities (validation of preventive controls, verification of monitoring, calibration verification, and records review) are documented consistent with 21 CFR 117.155-117.165.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.155, 117.160, 117.165",
+        "auditorNote": "Test the facility's understanding of validation vs. verification distinction in the closing interview."
+      },
+      {
+        "id": "10.10",
+        "title": "Scientifically supported kill-step validation",
+        "statement": "Where a kill-step or other validated control is relied upon to reduce a microbial or other hazard to an acceptable level, the validation study is scientifically supportable and specific to the facility's actual equipment and process parameters.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.150",
+        "auditorNote": "Do not accept an unvalidated assumption (e.g., decarb temperature profile) as equivalent to a documented kill-step validation."
+      },
+      {
+        "id": "10.11",
+        "title": "Formal hazard determination on cannabinoid dose uniformity",
+        "statement": "The facility's hazard analysis explicitly evaluates and documents a determination (with rationale) on whether cannabinoid content/potency variability constitutes a chemical hazard requiring a preventive control.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Derived requirement \u2014 logical extension of HARPC methodology",
+        "auditorNote": "Most conceptually important contribution of the Canna-Safe Programs framework \u2014 no FDA guidance category for this."
+      }
+    ]
+  },
+  {
+    "section": 11,
+    "title": "Process Controls & Cannabinoid Uniformity",
+    "expectedCount": 8,
+    "requirements": [
+      {
+        "id": "11.01",
+        "title": "Validated homogenization for uniform dispersion",
+        "statement": "Cannabis-infused edible products in solid or liquid form are homogenized/mixed using a validated process to ensure uniform dispersion of cannabinoids throughout the product, preventing 'hot spots.'",
+        "states": "WA (explicit); UNIV best practice",
+        "category": "FOOD, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "OBS/DOC/TEST",
+        "source": "WAC 314-55-077(8)",
+        "auditorNote": "Cross-references Section 3.09 equipment qualification."
+      },
+      {
+        "id": "11.02",
+        "title": "Batch-release potency and analyte testing",
+        "statement": "Each production batch is tested for cannabinoid potency (and other state-mandated analytes) by a licensed/accredited laboratory prior to release, with results retained and linked to the specific batch/lot.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-mandated batch/lot compliance testing requirements",
+        "auditorNote": "Distinct from Section 9's incoming-material testing \u2014 this addresses the facility's own finished output."
+      },
+      {
+        "id": "11.03",
+        "title": "Intra-batch uniformity testing beyond single-sample release",
+        "statement": "Facility conducts intra-batch uniformity testing (multiple samples from different points within a single batch) at a defined frequency, in addition to a single batch-release potency test.",
+        "states": "UNIV (best practice)",
+        "category": "FOOD, ALL-PROD (beverage)",
+        "status": "Mixed",
+        "method": "TEST",
+        "source": "Derived requirement \u2014 beyond typical state release-testing minimum",
+        "auditorNote": "Value-added service offering; a single release test can miss significant intra-batch variability."
+      },
+      {
+        "id": "11.04",
+        "title": "Documented, verified batch-calculation methodology",
+        "statement": "Where a product is formulated to a specific per-serving or per-package cannabinoid target, the facility's batch calculation methodology is documented and periodically verified against actual finished-product test results.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Derived requirement \u2014 supports dosage-cap compliance",
+        "auditorNote": "Formulation-methodology errors are an underappreciated root cause of potency-labeling non-conformance."
+      },
+      {
+        "id": "11.05",
+        "title": "Documented failed-batch disposition process",
+        "statement": "Facility has a documented process for evaluating and dispositioning finished product lots that fail potency, uniformity, or other release testing, including hold, destruction, or (where permitted) reformulation/rework procedures.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-specific failed-batch disposition rules",
+        "auditorNote": "Coordinate with Section 9.06 \u2014 verify the facility distinguishes incoming-material vs. finished-product disposition."
+      },
+      {
+        "id": "11.06",
+        "title": "Monitored infusion-specific critical parameters",
+        "statement": "Process critical parameters specific to infusion methodology (decarboxylation temperature/time profile, emulsification parameters, encapsulation/nanoemulsion process parameters) are monitored and recorded for each batch, with defined critical limits.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Cross-references Section 10.04",
+        "auditorNote": "Operationalizes 10.04 specifically for infusion technology."
+      },
+      {
+        "id": "11.07",
+        "title": "Substantiated shelf-life/stability claims",
+        "statement": "Facility maintains documented shelf-life/stability data supporting labeled cannabinoid content remaining within acceptable tolerance through the product's stated shelf life.",
+        "states": "UNIV (best practice; mandate varies by state)",
+        "category": "ALL-PROD",
+        "status": "Mixed",
+        "method": "DOC",
+        "source": "Derived requirement",
+        "auditorNote": "Flagged for Phase 1 hardening \u2014 verify whether any target state has an explicit shelf-life/stability mandate."
+      },
+      {
+        "id": "11.08",
+        "title": "Traceable, dosage-safe rework practices",
+        "statement": "Rework or reprocessed material (off-spec batches reincorporated into new production) is tracked with full traceability to originating batch(es), and reincorporation does not result in a finished product exceeding any single-batch dosage cap or violating labeling accuracy tolerances.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing rework-traceability practice",
+        "auditorNote": "Elevated risk relative to conventional food rework due to the dosage-cap dimension."
+      }
+    ]
+  },
+  {
+    "section": 12,
+    "title": "Product Category-Specific Requirements",
+    "expectedCount": 10,
+    "requirements": [
+      {
+        "id": "12.01",
+        "title": "Per-serving/per-package THC dosage caps",
+        "statement": "Cannabis-infused food/drink products do not exceed the state-defined maximum THC per serving and per package; serving sizes are accurately and consistently dosed.",
+        "states": "AR, WA (explicit); CO, CA, MO (verify)",
+        "category": "FOOD, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC/TEST",
+        "source": "AR NORML summary; WA DOH medical standard",
+        "auditorNote": "Distinguish adult-use vs. medical dosage caps where a state has both tracks."
+      },
+      {
+        "id": "12.02",
+        "title": "No child-appealing product design or packaging",
+        "statement": "Cannabis-infused edible products are not designed, shaped, or packaged in a manner that resembles non-cannabis products primarily consumed by and marketed to children.",
+        "states": "AR, CA, CO (explicit); WA, MO (verify)",
+        "category": "FOOD, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "AR NORML summary; CA DCC packaging rules; CO packaging rules",
+        "auditorNote": "Apply as a universal packaging/product-design checkpoint given consistent child-safety rationale."
+      },
+      {
+        "id": "12.03",
+        "title": "No consumer cooking/baking required (WA)",
+        "statement": "Cannabis-infused food or drink products do not require cooking or baking by the consumer prior to consumption (product is sold ready-to-consume).",
+        "states": "WA",
+        "category": "FOOD, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "WAC 314-55-077(9)(a)",
+        "auditorNote": "Straightforward label-review check."
+      },
+      {
+        "id": "12.04",
+        "title": "Dual-agency recipe approval (WA)",
+        "statement": "All recipes for cannabis-infused products meant for oral ingestion are submitted for and receive approval from the state Department of Agriculture (or equivalent) prior to submission for packaging/label review by the cannabis regulatory board; approved recipe is kept on file.",
+        "states": "WA",
+        "category": "FOOD, ALL-PROD (beverage), TINC",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "WAC 314-55-077(4)(b)",
+        "auditorNote": "Confirm both approvals (WSDA recipe + LCB product/label) exist, not just LCB-side approval."
+      },
+      {
+        "id": "12.05",
+        "title": "No prohibited frozen dessert/acidified food categories (MO)",
+        "statement": "Facility does not manufacture cannabis-infused frozen desserts or acidified foods (as defined by the state's food code), which are categorically prohibited regardless of process controls.",
+        "states": "MO",
+        "category": "FOOD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "MO 19 CSR 100-1.170(2)(C); 19 CSR 20-1.030, 20-1.042",
+        "auditorNote": "Hard category exclusion \u2014 binary pass/fail, not a risk-managed permission."
+      },
+      {
+        "id": "12.06",
+        "title": "No infusion into TCS foods (WA)",
+        "statement": "Facility does not infuse cannabis into potentially hazardous foods (time/temperature control for safety, or 'TCS' foods) that require time-temperature control to prevent pathogen growth or toxin production.",
+        "states": "WA",
+        "category": "FOOD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "WAC 314-55-077(10)",
+        "auditorNote": "Hard category exclusion specific to WA \u2014 code as binary pass/fail."
+      },
+      {
+        "id": "12.07",
+        "title": "Compliant alcohol-containing tinctures",
+        "statement": "Tinctures and other alcohol-containing infused products comply with applicable state alcohol-content limits and any dual-licensure requirements where alcohol content triggers additional regulatory oversight beyond the cannabis license alone.",
+        "states": "CA (explicit flag); CO, WA, MO, AR (verify)",
+        "category": "TINC",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "CA DCC \u00a717302, \u00a717302.1, \u00a717303",
+        "auditorNote": "Flagged since original workbook \u2014 prioritize full-text verification before live CA tincture-client audit."
+      },
+      {
+        "id": "12.08",
+        "title": "Topical products correctly excluded from ingestible pathway",
+        "statement": "Topical cannabis products comply with applicable state cosmetic/topical-specific labeling and formulation requirements, distinct from the ingestible-product (food) regulatory pathway, and are not represented as having ingestible/oral-consumption use.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "TOPI",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "State-specific topical/cosmetic cannabis product rules",
+        "auditorNote": "Verify the facility's product mix at audit scoping to apply correct category logic throughout the whole framework."
+      },
+      {
+        "id": "12.09",
+        "title": "Current beverage-specific regulatory compliance",
+        "statement": "Beverage-category infused products comply with any state-specific carbonation, alcohol-analog, or beverage-specific labeling requirements.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-specific cannabis beverage regulations (emerging, fast-evolving)",
+        "auditorNote": "Fastest-evolving regulatory subcategory across all target states \u2014 verify current rule at audit time."
+      },
+      {
+        "id": "12.10",
+        "title": "Substantiated health/wellness claims",
+        "statement": "Facility maintains documentation supporting any health, wellness, or functional claims made on infused-product labeling or marketing materials, consistent with state restrictions on unsubstantiated medical/therapeutic claims.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-specific cannabis advertising/labeling claims restrictions",
+        "auditorNote": "Flag any 'treats,' 'cures,' or 'prevents' language for immediate escalation."
+      }
+    ]
+  },
+  {
+    "section": 13,
+    "title": "Allergen Control Program",
+    "expectedCount": 7,
+    "requirements": [
+      {
+        "id": "13.01",
+        "title": "Current major-allergen identification including sesame",
+        "statement": "Facility maintains a written allergen control plan identifying all major food allergens (milk, egg, fish, shellfish, tree nuts, peanuts, wheat, soybeans, sesame) present in any ingredient, product, or shared production line.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FASTER Act (2021); 21 CFR 117.135(c)(2)",
+        "auditorNote": "Verify the plan reflects sesame as a major allergen (older templates may not)."
+      },
+      {
+        "id": "13.02",
+        "title": "Physical/procedural allergen segregation in storage",
+        "statement": "Allergen-containing ingredients are physically or procedurally segregated from non-allergen ingredients during storage to prevent cross-contact.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "OBS",
+        "source": "21 CFR 117.135(c)(2)",
+        "auditorNote": "Check vertical as well as horizontal storage separation."
+      },
+      {
+        "id": "13.03",
+        "title": "Validated shared-line changeover cleaning",
+        "statement": "Where shared production equipment/lines are used for both allergen-containing and allergen-free products, a validated changeover cleaning procedure is in place and verified before allergen-free production resumes.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC/TEST",
+        "source": "21 CFR 117.135(c)(2)",
+        "auditorNote": "Request the validation study for the highest-risk shared-line scenario, not just the SSOP."
+      },
+      {
+        "id": "13.04",
+        "title": "Accurate allergen labeling matching formulation",
+        "statement": "Finished product labeling accurately declares all major food allergens present, using compliant 'Contains' statement or ingredient-list bolding/parenthetical declaration.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FALCPA (2004); FASTER Act (2021)",
+        "auditorNote": "Cross-reference the finished-product label against formulation records including sub-ingredients."
+      },
+      {
+        "id": "13.05",
+        "title": "Risk-based precautionary labeling",
+        "statement": "Facility maintains a documented allergen risk assessment for each product formulation, evaluating precautionary 'may contain' labeling appropriateness based on actual cross-contact risk.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing allergen risk assessment practice",
+        "auditorNote": "Reflexive 'may contain' labeling on every product signals the underlying assessment wasn't used to drive labeling decisions."
+      },
+      {
+        "id": "13.06",
+        "title": "Product-specific allergen awareness training",
+        "statement": "Employee training explicitly covers allergen awareness, cross-contact prevention practices, and the specific allergens present in the facility's product portfolio.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC/INT",
+        "source": "21 CFR 117.10; FASTER Act",
+        "auditorNote": "Ask a line employee to name the specific allergen(s) present in what they're currently producing."
+      },
+      {
+        "id": "13.07",
+        "title": "Sub-ingredient-level allergen evaluation for flavors/colors",
+        "statement": "Non-cannabis flavoring, coloring, and functional ingredients are evaluated for allergen content at the sub-ingredient level, not assumed allergen-free based on the finished-ingredient name alone.",
+        "states": "UNIV",
+        "category": "FOOD, TINC, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.135(c)(2)",
+        "auditorNote": "Request full sub-ingredient breakdown documentation from flavor/color suppliers."
+      }
+    ]
+  },
+  {
+    "section": 14,
+    "title": "Labeling, Packaging & Child-Resistant Compliance",
+    "expectedCount": 9,
+    "requirements": [
+      {
+        "id": "14.01",
+        "title": "Certified, verified child-resistant packaging",
+        "statement": "Finished product packaging is child-resistant, certified to applicable state standard, with current certification documentation on file from the packaging supplier.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/OBS",
+        "source": "State CRP requirements referencing 16 CFR 1700.20; cross-references 9.07",
+        "auditorNote": "Also requires physical verification that packaging in use matches the certified specification."
+      },
+      {
+        "id": "14.02",
+        "title": "Label THC/CBD content matching test results within tolerance",
+        "statement": "Finished product labeling accurately declares total THC/CBD content (and other state-required cannabinoids) per package and per serving, consistent with actual finished-product test results within the state's allowed labeling tolerance.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-specific cannabinoid labeling accuracy/tolerance requirements",
+        "auditorNote": "Directly cross-check label claim against actual batch-release COA (11.02) for current-production lots."
+      },
+      {
+        "id": "14.03",
+        "title": "Current required warning statements",
+        "statement": "Labeling includes all state-required warning statements in the required format, size, and placement.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-specific mandatory warning statement requirements",
+        "auditorNote": "Frequently revised \u2014 verify current rule at each audit."
+      },
+      {
+        "id": "14.04",
+        "title": "Current universal symbol",
+        "statement": "Universal cannabis symbol (state-specific standardized THC/warning symbol, where required) is present on packaging in the required size and placement.",
+        "states": "CO, CA, WA (verify others)",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "State-specific universal symbol requirements",
+        "auditorNote": "Verify the specific symbol design in use matches the state's current approved symbol."
+      },
+      {
+        "id": "14.05",
+        "title": "Durable, traceable lot identification",
+        "statement": "Package labeling includes lot/batch identification sufficient to support traceability, printed legibly and durably.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "21 CFR 117.310; state track-and-trace lot-identification requirements; cross-references Section 15",
+        "auditorNote": "Physically test label durability where feasible."
+      },
+      {
+        "id": "14.06",
+        "title": "Accurate net weight/volume declarations",
+        "statement": "Net weight/volume declarations on packaging are accurate and comply with applicable weights-and-measures standards, verified periodically through facility self-checks.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC/TEST",
+        "source": "NIST Handbook 133 (general federal reference standard)",
+        "auditorNote": "Primarily a documentation-verification item."
+      },
+      {
+        "id": "14.07",
+        "title": "Controlled pre-production label/artwork approval",
+        "statement": "Packaging and labeling artwork undergoes a documented pre-production approval process prior to first use, with version control preventing use of outdated/unapproved artwork.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard label-control practice; state-specific label pre-approval requirements vary",
+        "auditorNote": "Verify against Section 12.04's WA dual-agency requirement where applicable."
+      },
+      {
+        "id": "14.08",
+        "title": "Change-controlled label updates",
+        "statement": "Facility maintains a documented process for managing label/packaging changes that triggers timely re-verification of label accuracy and, where required, regulatory re-approval, before the revised product enters commerce.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Change-management best practice; cross-references 4.09",
+        "auditorNote": "Trace the facility's most recent actual label change through to re-approval."
+      },
+      {
+        "id": "14.09",
+        "title": "State-compliant multi-serving package demarcation",
+        "statement": "Where a product package contains multiple discrete servings, package-level THC content and per-serving demarcation meet state-specific requirements for consumer dose-control.",
+        "states": "CO, CA, WA, MO, AR (verify per-state requirement)",
+        "category": "FOOD, ALL-PROD (beverage)",
+        "status": "Mandatory",
+        "method": "OBS/DOC",
+        "source": "State-specific multi-serving package requirements",
+        "auditorNote": "Common point of state-to-state variation \u2014 flag explicitly as state-conditional."
+      }
+    ]
+  },
+  {
+    "section": 15,
+    "title": "Traceability, Mock Recall & Recall Program",
+    "expectedCount": 8,
+    "requirements": [
+      {
+        "id": "15.01",
+        "title": "Full one-step-forward/one-step-back traceability",
+        "statement": "Facility maintains full lot traceability (one-step-forward/one-step-back) linking finished product lots to incoming cannabis input lots, non-cannabis ingredient lots, packaging lots, and outbound distribution records.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.310; cross-references 9.10",
+        "auditorNote": "Verifies underlying data architecture; 15.03 verifies actual execution under time pressure."
+      },
+      {
+        "id": "15.02",
+        "title": "Reconciliation with state track-and-trace system",
+        "statement": "Facility's internal lot-traceability system is integrated with or reconciled against the state's mandatory seed-to-sale tracking system, such that internal records and state-system records agree for a given lot.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State track-and-trace system requirements; cross-references 9.04",
+        "auditorNote": "Pull a sample lot and independently verify against the state tracking system's record."
+      },
+      {
+        "id": "15.03",
+        "title": "Semi-annual mock recall exercises with recovery-rate benchmark",
+        "statement": "Facility conducts a documented mock recall exercise at a minimum semi-annual frequency, evaluating both speed and accuracy of the trace.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing mock recall practice (\u226595% recovery benchmark)",
+        "auditorNote": "Apply the \u226595% effectiveness benchmark and semi-annual minimum frequency as the baseline standard."
+      },
+      {
+        "id": "15.04",
+        "title": "Cannabis-specific mock recall scenarios",
+        "statement": "Mock recall exercises test recall scenarios specific to cannabis-industry risk in addition to conventional food-safety recall scenarios.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Derived requirement \u2014 extends conventional mock recall practice",
+        "auditorNote": "A mock recall program testing only conventional food scenarios is testing an incomplete risk picture."
+      },
+      {
+        "id": "15.05",
+        "title": "Written recall plan with state regulatory notification",
+        "statement": "Facility maintains a written recall plan defining recall initiation criteria, internal notification chain, external notification requirements, and recall effectiveness verification methodology.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.139; cross-references 10.07",
+        "auditorNote": "Verify the external notification chain explicitly includes the state cannabis regulatory agency."
+      },
+      {
+        "id": "15.06",
+        "title": "Defined recall severity classification",
+        "statement": "Recall plan defines product classification/severity criteria to guide the urgency and scope of recall response appropriate to the hazard involved.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "FDA recall classification methodology (Class I/II/III); cross-references Section 16 severity model",
+        "auditorNote": "Use consistent severity terminology with the audit-finding-severity model."
+      },
+      {
+        "id": "15.07",
+        "title": "Current downstream distribution records",
+        "statement": "Facility maintains distribution records sufficient to identify all downstream recipients of each product lot, with contact information current and verified.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "21 CFR 117.310; state distribution/manifest recordkeeping requirements",
+        "auditorNote": "Sample-test a recent distribution record by attempting to verify the listed recipient's license/contact info is current."
+      },
+      {
+        "id": "15.08",
+        "title": "Closed-loop corrective action on recall performance gaps",
+        "statement": "Where the facility's mock recall or actual recall history reveals any recovery-rate or timeliness shortfall, root-cause analysis and corrective action are documented, with subsequent mock recall exercises specifically designed to test whether the corrective action resolved the gap.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard food-manufacturing continuous-improvement practice",
+        "auditorNote": "An unmodified repeat exercise next cycle hasn't actually closed the loop."
+      }
+    ]
+  },
+  {
+    "section": 16,
+    "title": "Certification/Audit Program Governance, Corrective Actions & Continuous Improvement",
+    "expectedCount": 10,
+    "requirements": [
+      {
+        "id": "16.01",
+        "title": "Risk-adjusted audit frequency",
+        "statement": "Canna-Safe Programs certification audits are scheduled at a defined base frequency (recommended annual minimum, consistent with CO's mandatory annual third-party cGMP audit requirement), with frequency adjustable upward based on documented risk factors.",
+        "states": "CO (explicit mandate); UNIV baseline",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "CO hemp safe-harbor mandatory annual third-party audit requirement; MFI Audit Frequency Justification methodology (inverted)",
+        "auditorNote": "Cannabis clients start at a higher-scrutiny baseline with justified reduction potential over time."
+      },
+      {
+        "id": "16.02",
+        "title": "Defined finding severity model",
+        "statement": "Audit findings are classified using a defined severity model (Critical / Major / Minor) with explicit criteria distinguishing each severity level.",
+        "states": "UNIV",
+        "category": "ALL-PROD (program governance)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "GFSI/SQF-style severity classification methodology; cross-references 15.06",
+        "auditorNote": "Critical = imminent consumer-safety/license risk; Major = systemic latent-risk gap; Minor = isolated low-risk gap."
+      },
+      {
+        "id": "16.03",
+        "title": "Certification hold on Critical findings pending closure",
+        "statement": "Facility receiving a Critical finding is subject to immediate corrective action requirement with certification hold/suspension pending verified closure.",
+        "states": "UNIV",
+        "category": "ALL-PROD (program governance)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Derived program-governance rule; analog to FDA Class I recall urgency standard",
+        "auditorNote": "Document clearly in the certification program manual before any finding occurs."
+      },
+      {
+        "id": "16.04",
+        "title": "5 C****'****s CAPA methodology",
+        "statement": "Corrective Action/Preventive Action (CAPA) responses to audit findings follow a defined format: root-cause analysis, immediate correction, systemic corrective action, and verification-of-effectiveness evidence.",
+        "states": "UNIV",
+        "category": "ALL-PROD (program governance)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "SQF Lead Auditor training \u2014 5 C**'**s methodology",
+        "auditorNote": "Direct methodological carryover from SQF Lead Auditor training."
+      },
+      {
+        "id": "16.05",
+        "title": "Floor-time-weighted audit conduct",
+        "statement": "Auditor time allocation during an on-site audit follows the same objective-evidence-gathering discipline established in SQF Lead Auditor training: a substantial majority of audit time spent on floor observations/interviews rather than solely document review.",
+        "states": "UNIV",
+        "category": "N/A (auditor conduct standard)",
+        "status": "Mandatory",
+        "method": "N/A",
+        "source": "SQF Lead Auditor training \u2014 60/40 observation-time standard",
+        "auditorNote": "Governs auditor conduct, not facility-side requirements."
+      },
+      {
+        "id": "16.06",
+        "title": "Independent certification decision-making",
+        "statement": "Certification decisions are made by a role functionally independent from the auditor who conducted the on-site assessment.",
+        "states": "UNIV",
+        "category": "ALL-PROD (program governance)",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "ISO/IEC 17065 accreditation impartiality principle",
+        "auditorNote": "Relevant to Phase 2 accredited CB status \u2014 build the separation now to avoid later retrofit."
+      },
+      {
+        "id": "16.07",
+        "title": "Independently verified corrective action closure",
+        "statement": "Facility corrective action closure is independently verified by Canna-Safe Programs before certification status is restored or maintained \u2014 corrective action is not self-certified as closed by the facility alone.",
+        "states": "UNIV",
+        "category": "ALL-PROD (program governance)",
+        "status": "Mandatory",
+        "method": "DOC/OBS (Critical findings)",
+        "source": "Standard third-party certification governance principle; direct analog to MFI SCAR closure-verification role",
+        "auditorNote": "Mirrors existing MFI/BEF SCAR policy discipline."
+      },
+      {
+        "id": "16.08",
+        "title": "Tracked regulatory-currency governance mechanism",
+        "statement": "Canna-Safe Programs maintains a documented process for monitoring and incorporating regulatory changes across all five target states into the audit program.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD (program governance)",
+        "status": "Mandatory",
+        "method": "N/A (program governance)",
+        "source": "Derived program-governance requirement synthesizing the recurring **'**verify current rule**'** flags throughout the framework",
+        "auditorNote": "Build a literal tracking document: citation, last-verified date, next-review-due date, responsible party."
+      },
+      {
+        "id": "16.09",
+        "title": "Client feedback and program continuous improvement",
+        "statement": "Facility (client) satisfaction and program effectiveness are periodically assessed and reviewed as part of Canna-Safe Programs' own continuous improvement process, distinct from the facility-side management review in Section 1.06.",
+        "states": "UNIV",
+        "category": "ALL-PROD (program governance)",
+        "status": "Mandatory",
+        "method": "N/A (program governance)",
+        "source": "Standard certification-body continuous-improvement practice (ISO/IEC 17065-adjacent)",
+        "auditorNote": "Build now, even in Phase 1 consulting form, to support future Phase 2 accreditation evaluation."
+      },
+      {
+        "id": "16.10",
+        "title": "Retained, accessible audit and certification records",
+        "statement": "Canna-Safe Programs maintains records of all audits, findings, corrective actions, and certification decisions in a document control system consistent with the retention standards established in Section 1.10, and accessible for review in the event of a Phase 2 accreditation body assessment.",
+        "states": "UNIV",
+        "category": "ALL-PROD (program governance)",
+        "status": "Mandatory",
+        "method": "N/A (program governance)",
+        "source": "Cross-references Section 1.10; ISO/IEC 17065 records-retention principle",
+        "auditorNote": "Closes the loop back to the framework's own governance origin point."
+      }
+    ]
+  },
+  {
+    "section": 17,
+    "title": "Testing Laboratory Verification Requirements",
+    "expectedCount": 10,
+    "requirements": [
+      {
+        "id": "LAB.01",
+        "title": null,
+        "statement": "Facility verifies that each testing laboratory it relies on for compliance release holds current ISO/IEC 17025 accreditation from a recognized accreditation body (A2LA, PJLA, ANAB, or equivalent), confirmed against the accreditation body's public registry rather than the lab's own representation.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "ISO/IEC 17025; standard laboratory-accreditation practice",
+        "auditorNote": "Baseline competence signal \u2014 always verify independently, never accept a lab's self-issued certificate as sufficient evidence."
+      },
+      {
+        "id": "LAB.02",
+        "title": null,
+        "statement": "Facility confirms the lab's accredited scope specifically covers the exact analyte, method, and product matrix being relied upon (e.g., pesticide residue testing in an infused-beverage matrix, not just cannabinoid potency in flower).",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "ISO/IEC 17025 scope-of-accreditation principle",
+        "auditorNote": "A lab can be validly accredited for one matrix/analyte combination while having no accreditation at all for another \u2014 scope, not accreditation status alone, is what matters."
+      },
+      {
+        "id": "LAB.03",
+        "title": null,
+        "statement": "Facility identifies and documents the specific test method used by the lab for each analyte category (e.g., an AOAC Official Method, a state-mandated method, or a validated in-house method), and confirms the method matches what the facility's state regulator requires for compliance release.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "AOAC International Official Methods; state-specific mandated testing methods",
+        "auditorNote": "State cannabis programs increasingly specify required methods by name \u2014 verify the lab's actual method matches the current state requirement, not an older or substitute method."
+      },
+      {
+        "id": "LAB.04",
+        "title": null,
+        "statement": "Where a lab uses a non-AOAC, in-house, or otherwise non-standard method, the facility obtains and reviews the lab's method validation study (accuracy, precision, limit of detection/quantitation, and matrix-specific validation) before relying on that method for compliance release.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard analytical-method validation practice",
+        "auditorNote": "The single most commonly skipped verification step \u2014 labs frequently assert a method is 'validated' without being able to produce the underlying study on request."
+      },
+      {
+        "id": "LAB.05",
+        "title": null,
+        "statement": "Facility confirms the lab participates in a recognized interlaboratory proficiency testing (PT) program for the relevant analytes, with recent passing results, reviewed at least annually.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard laboratory quality-assurance practice (PT/EQA schemes)",
+        "auditorNote": "PT performance is a real-world check on the lab's actual output quality, distinct from its paper accreditation status."
+      },
+      {
+        "id": "LAB.06",
+        "title": null,
+        "statement": "Facility verifies the lab holds current state-required cannabis testing laboratory licensure/registration in the specific state where results will be used for compliance release, separate from and in addition to ISO/IEC 17025 accreditation.",
+        "states": "CO, CA, WA, MO, AR",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "State-specific cannabis testing laboratory licensing requirements",
+        "auditorNote": "A lab can be fully ISO-accredited and still be unlicensed for cannabis compliance testing in a specific state \u2014 the two credentials are independent and both must be checked."
+      },
+      {
+        "id": "LAB.07",
+        "title": null,
+        "statement": "Facility confirms the lab maintains a documented chain-of-custody process for sample intake, including sample origin, collector identity, transport conditions, and all custody transfer points, from collection through final result reporting.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard forensic/analytical chain-of-custody practice",
+        "auditorNote": "Breaks in custody undermine the evidentiary value of an otherwise-passing result and are a documented vector for sample substitution or manipulation."
+      },
+      {
+        "id": "LAB.08",
+        "title": null,
+        "statement": "Facility periodically cross-checks lab results against an independent retest (a different accredited lab testing a split or reserve sample from the same batch) at a defined frequency, with results reviewed for material discrepancy.",
+        "states": "UNIV (best practice; not state-mandated)",
+        "category": "ALL-PROD",
+        "status": "Mixed",
+        "method": "TEST",
+        "source": "Derived requirement \u2014 addresses documented industry lab-integrity risk",
+        "auditorNote": "Directly closes the lab-fraud risk already flagged at requirement 9.09. Inflated potency and false-pass results have been the subject of documented state enforcement actions against labs in multiple markets."
+      },
+      {
+        "id": "LAB.09",
+        "title": null,
+        "statement": "Facility confirms no ownership, financial, or other conflict-of-interest relationship exists between the testing laboratory and the facility, or between the lab and any entity providing financial backing to the facility.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard conflict-of-interest / independence principle",
+        "auditorNote": "Easy to overlook with smaller regional labs in tighter-knit state markets \u2014 ask directly rather than assuming independence."
+      },
+      {
+        "id": "LAB.10",
+        "title": null,
+        "statement": "Facility reviews the lab's Certificate of Analysis (COA) format for completeness: method reference cited, limit of detection/quantitation stated where applicable, sample ID traceable to the specific batch, and analyst/reviewer sign-off present.",
+        "states": "UNIV",
+        "category": "ALL-PROD",
+        "status": "Mandatory",
+        "method": "DOC",
+        "source": "Standard COA reporting-integrity practice",
+        "auditorNote": "A COA missing method reference or LOD/LOQ values is a red flag for reporting rigor even before any result is examined substantively. Page of Page of"
+      }
+    ]
+  }
+]

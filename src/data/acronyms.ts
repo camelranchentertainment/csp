@@ -1,0 +1,75 @@
+export type AcronymEntry = { term: string; expansion: string; note?: string };
+
+export const ACRONYM_GROUPS: { group: string; entries: AcronymEntry[] }[] = [
+  {
+    group: "Program codes",
+    entries: [
+      { term: "DOC", expansion: "Document Review", note: "Audit method code" },
+      { term: "OBS", expansion: "Observation", note: "Audit method code" },
+      { term: "INT", expansion: "Interview", note: "Audit method code" },
+      { term: "TEST", expansion: "Physical / Laboratory Testing", note: "Audit method code" },
+      { term: "UNIV", expansion: "Universal", note: "Applies across all five target states" },
+      { term: "R-I-O", expansion: "Records, Interviews, Observations", note: "Objective-evidence standard for findings" },
+      { term: "CAPA", expansion: "Corrective Action / Preventive Action" },
+      { term: "5 C's", expansion: "Root cause, Correction, Corrective action, Confirmation, Closure (CAPA format)" },
+    ],
+  },
+  {
+    group: "Food safety & auditing",
+    entries: [
+      { term: "GFSI", expansion: "Global Food Safety Initiative" },
+      { term: "SQF", expansion: "Safe Quality Food", note: "GFSI-benchmarked certification scheme this program's methodology is modeled on" },
+      { term: "BRCGS", expansion: "Brand Reputation through Compliance Global Standards", note: "GFSI-benchmarked scheme" },
+      { term: "FSSC 22000", expansion: "Food Safety System Certification 22000", note: "GFSI-benchmarked scheme" },
+      { term: "HACCP", expansion: "Hazard Analysis and Critical Control Points" },
+      { term: "HARPC", expansion: "Hazard Analysis and Risk-Based Preventive Controls" },
+      { term: "PCQI", expansion: "Preventive Controls Qualified Individual" },
+      { term: "GMP", expansion: "Good Manufacturing Practice" },
+      { term: "EMP", expansion: "Environmental Monitoring Program" },
+      { term: "QA / QC", expansion: "Quality Assurance / Quality Control" },
+      { term: "SCAR", expansion: "Supplier Corrective Action Request" },
+      { term: "TCS", expansion: "Time/Temperature Control for Safety", note: "Food category requiring temperature control" },
+      { term: "SDS", expansion: "Safety Data Sheet" },
+      { term: "PPE", expansion: "Personal Protective Equipment" },
+    ],
+  },
+  {
+    group: "Accreditation & standards",
+    entries: [
+      { term: "ISO/IEC 17065", expansion: "International standard for bodies certifying products, processes, and services" },
+      { term: "ISO/IEC 17025", expansion: "International standard for testing and calibration laboratory competence" },
+      { term: "ISO 9001", expansion: "International quality management system standard" },
+      { term: "ISO 22000", expansion: "International food safety management system standard" },
+      { term: "AOAC", expansion: "AOAC International", note: "Publisher of Official Methods used for analytical testing" },
+      { term: "COA", expansion: "Certificate of Analysis" },
+      { term: "PT", expansion: "Proficiency Testing", note: "Interlaboratory testing program used to verify lab competence" },
+    ],
+  },
+  {
+    group: "Cannabis regulatory & compliance",
+    entries: [
+      { term: "THC", expansion: "Tetrahydrocannabinol" },
+      { term: "CBD", expansion: "Cannabidiol" },
+      { term: "METRC", expansion: "Marijuana Enforcement Tracking Reporting Compliance", note: "Seed-to-sale track-and-trace system used by several target states" },
+      { term: "BioTrack", expansion: "BioTrack", note: "Alternative cannabis seed-to-sale track-and-trace system" },
+      { term: "CFR", expansion: "Code of Federal Regulations", note: "e.g., 21 CFR 117 — federal preventive-controls rule" },
+      { term: "FDA", expansion: "U.S. Food and Drug Administration" },
+      { term: "CRP", expansion: "Child-Resistant Packaging" },
+      { term: "MFI", expansion: "Supplier Expectation Manual methodology (internal reference)", note: "Source of the Audit Frequency Reduction Justification model, inverted for this program" },
+    ],
+  },
+  {
+    group: "State regulatory bodies",
+    entries: [
+      { term: "CO MED", expansion: "Colorado Marijuana Enforcement Division" },
+      { term: "CA DCC", expansion: "California Department of Cannabis Control" },
+      { term: "WA LCB", expansion: "Washington State Liquor & Cannabis Board" },
+      { term: "WSDA", expansion: "Washington State Department of Agriculture" },
+      { term: "WAC", expansion: "Washington Administrative Code" },
+      { term: "MO DHSS/DCR", expansion: "Missouri Dept. of Health and Senior Services / Division of Cannabis Regulation" },
+      { term: "AR ABC", expansion: "Arkansas Alcoholic Beverage Control — Cannabis Division" },
+      { term: "DOH", expansion: "Department of Health", note: "General reference, varies by state" },
+      { term: "NFPA", expansion: "National Fire Protection Association", note: "Referenced for extraction-equipment safety standards" },
+    ],
+  },
+];

@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+/* ============================================================
+   CANNA-SAFE PROGRAMS — Design Tokens
+   Editorial / regulatory-publishing system: forest + amber,
+   warm parchment ground, hairline rules, no filled boxes.
+   ============================================================ */
+
+:root {
+  /* Ground */
+  --color-paper: #FAF7EF;
+  --color-surface: #FFFFFF;
+  --color-surface-sunk: #F3EFE2;
+
+  /* Ink */
+  --color-ink: #1C2620;
+  --color-ink-muted: #52605A;
+  --color-ink-faint: #8A9490;
+
+  /* Forest (primary) */
+  --color-forest-950: #0B1F17;
+  --color-forest-900: #10281F;
+  --color-forest-800: #163826;
+  --color-forest-700: #1F4D37;
+  --color-forest-600: #2A6248;
+  --color-forest-500: #35785A;
+  --color-forest-100: #E3EAE3;
+  --color-forest-50:  #EFF3EB;
+
+  /* Amber (accent) */
+  --color-amber-700: #8A5E14;
+  --color-amber-600: #A6741C;
+  --color-amber-500: #BE8B2C;
+  --color-amber-400: #CDA24E;
+  --color-amber-200: #E9D6A8;
+  --color-amber-100: #F3E7C9;
+
+  /* Severity */
+  --color-critical: #7A2E22;
+  --color-critical-bg: #F3E4DF;
+  --color-major: #8A5E14;
+  --color-major-bg: #F3E7C9;
+  --color-minor: #52605A;
+  --color-minor-bg: #EEEAE0;
+
+  /* Rules & lines */
+  --color-rule: #D9CFB6;
+  --color-rule-strong: #B9AC85;
+
+  /* Radii - intentionally near-zero; this is a book, not an app */
+  --radius-sm: 2px;
+  --radius-md: 3px;
+}
+
+@theme inline {
+  --color-paper: var(--color-paper);
+  --color-surface: var(--color-surface);
+  --color-ink: var(--color-ink);
+  --color-forest-900: var(--color-forest-900);
+  --color-forest-700: var(--color-forest-700);
+  --color-amber-600: var(--color-amber-600);
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-source-serif);
+  --font-mono: var(--font-plex-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body), Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-forest-950);
+}
+
+.font-mono, .eyebrow, .tag, .stat-label {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* Hairline rule, never a filled block */
+.rule-top    { border-top: 1px solid var(--color-rule); }
+.rule-bottom { border-bottom: 1px solid var(--color-rule); }
+.rule-left   { border-left: 1px solid var(--color-rule); }
+
+/* Left-rule callout — the house style for notices/asides.
+   No fill, no border-radius box, just a rule + indent. */
+.callout {
+  border-left: 3px solid var(--color-amber-500);
+  padding-left: 1.25rem;
+  margin: 1.75rem 0;
+}
+.callout.callout-notice {
+  border-left-color: var(--color-forest-600);
+}
+.callout.callout-critical {
+  border-left-color: var(--color-critical);
+}
+
+/* Rules-only table: horizontal hairlines, no vertical lines, no shading */
+.rules-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.rules-table th {
+  text-align: left;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+  font-weight: 500;
+  padding: 0.6rem 0.9rem 0.6rem 0;
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+.rules-table td {
+  padding: 0.85rem 0.9rem 0.85rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  vertical-align: top;
+}
+.rules-table tr:last-child td {
+  border-bottom: none;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+::selection {
+  background: var(--color-amber-200);
+  color: var(--color-forest-950);
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-amber-600);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
