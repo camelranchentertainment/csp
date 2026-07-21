@@ -6,9 +6,9 @@ export default function Seal({ className = "" }: { className?: string }) {
       fill="none"
       aria-hidden="true"
     >
+      {/* Outer registry ring — the "audited/certified" instrument mark */}
       <circle cx="24" cy="24" r="22.5" stroke="currentColor" strokeWidth="1" />
       <circle cx="24" cy="24" r="18.5" stroke="currentColor" strokeWidth="0.75" />
-      {/* Radial ticks, evoking a calibrated instrument / registry seal */}
       {Array.from({ length: 24 }).map((_, i) => {
         const angle = (i * 360) / 24;
         const rad = (angle * Math.PI) / 180;
@@ -28,17 +28,31 @@ export default function Seal({ className = "" }: { className?: string }) {
           />
         );
       })}
-      {/* Two-leaf mark at center — cannabis + agriculture, rendered abstractly */}
+
+      {/* Shield — certification / audit protection */}
       <path
-        d="M24 15c2.6 3 4 6.4 4 9.3 0 3.4-1.8 6.1-4 7.7-2.2-1.6-4-4.3-4-7.7 0-2.9 1.4-6.3 4-9.3Z"
+        d="M24 11.5 L32.5 14.9 V23 C32.5 29.8 28.8 34.1 24 36.6 C19.2 34.1 15.5 29.8 15.5 23 V14.9 Z"
         stroke="currentColor"
-        strokeWidth="1"
+        strokeWidth="1.1"
       />
-      <path d="M24 17.5v14.2" stroke="currentColor" strokeWidth="0.75" />
+
+      {/* Hexagon — cannabinoid / molecular ring, standing in for "cannabis"
+          without a leaf, plus two short bond stubs for a chemistry-diagram cue */}
       <path
-        d="M24 21c-3.4-.4-6-2-7.6-4.1M24 21c3.4-.4 6-2 7.6-4.1M24 26c-3.6.2-6.6 1.6-8.6 3.6M24 26c3.6.2 6.6 1.6 8.6 3.6"
+        d="M24 16.4 L27.12 18.2 L27.12 21.8 L24 23.6 L20.88 21.8 L20.88 18.2 Z"
         stroke="currentColor"
-        strokeWidth="0.75"
+        strokeWidth="0.9"
+      />
+      <path d="M24 16.4V14.1" stroke="currentColor" strokeWidth="0.75" />
+      <path d="M27.12 18.2 28.9 17.1" stroke="currentColor" strokeWidth="0.75" />
+
+      {/* Checkmark — the audit sign-off, sitting in the lower shield field */}
+      <path
+        d="M19.3 28.1 L22.7 31.5 L29 25.1"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

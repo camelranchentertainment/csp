@@ -98,6 +98,23 @@ h1, h2, h3, h4, .font-display {
 .rule-bottom { border-bottom: 1px solid var(--color-rule); }
 .rule-left   { border-left: 1px solid var(--color-rule); }
 
+/* Bold section-to-section boundary — deliberately heavier than the
+   in-content hairlines above, so major content breaks read clearly at
+   a glance instead of blending together. */
+.section-rule {
+  border-bottom: 3px solid var(--color-forest-900);
+  position: relative;
+}
+.section-rule::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 46px;
+  height: 3px;
+  background: var(--color-amber-500);
+}
+
 /* Left-rule callout — the house style for notices/asides.
    No fill, no border-radius box, just a rule + indent. */
 .callout {

@@ -27,14 +27,18 @@ export default function RequirementsBrowser() {
   const [state, setState] = useState("ALL");
   const [status, setStatus] = useState("ALL");
 
- // Progressive enhancement: honor a ?section= deep link once mounted in
-   // the browser, without blocking the static prerender of the full list.
-   useEffect(() => {
-     const params = new URLSearchParams(window.location.search);
-     const s = params.get("section");
-     // eslint-disable-next-line react-hooks/set-state-in-effect
-     if (s) setSection(Number(s));
-   }, []);
+  // Progressive enhancement: honor a ?section= deep link once mounted in
+  // the browser, without blocking the static prerender of the full list.
+  // This is a one-time sync from an external system (the URL) on mount,
+  // not derived render state, so the setState-in-effect rule doesn't
+  // apply here — see https://react.dev/learn/you-might-not-need-an-effect
+  // ("Case: Adjusting state when a prop changes" does not cover this).
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const s = params.get("section");
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (s) setSection(Number(s));
+  }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();

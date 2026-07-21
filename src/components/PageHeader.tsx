@@ -10,7 +10,7 @@ export default function PageHeader({
   dek?: string;
 }) {
   return (
-    <div className="mx-auto max-w-[1200px] px-5 pt-14 pb-10 rule-bottom">
+    <div className="mx-auto max-w-[1200px] px-5 pt-14 pb-10 section-rule">
       <div className="flex items-baseline gap-3 font-mono text-[12px] tracking-[0.14em] uppercase text-[var(--color-amber-600)]">
         <span>§{n}</span>
         <span className="text-[var(--color-ink-faint)]">/</span>

@@ -25,12 +25,12 @@ export default function Nav() {
       <div className="rule-bottom">
         <div className="mx-auto max-w-[1200px] px-5 py-4 flex items-center justify-between gap-6">
           <Link href="/" className="flex items-center gap-3 shrink-0">
-            <Seal className="w-9 h-9 text-[var(--color-forest-800)]" />
+            <Seal className="w-11 h-11 shrink-0 text-[var(--color-forest-800)]" />
             <div className="leading-tight">
-              <div className="font-display text-[1.15rem] text-[var(--color-forest-950)]">
+              <div className="font-display font-bold text-[1.55rem] md:text-[1.75rem] leading-none tracking-tight text-[var(--color-forest-950)]">
                 Canna-Safe Programs
               </div>
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase text-[var(--color-ink-muted)]">
+              <div className="font-mono text-[10px] tracking-[0.14em] uppercase text-[var(--color-ink-muted)] mt-1">
                 Cannabis Food Safety Certification
               </div>
             </div>

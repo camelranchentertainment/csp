@@ -10,7 +10,7 @@ export default function Section({
   wide?: boolean;
 }) {
   return (
-    <section className="mx-auto max-w-[1200px] px-5 py-12 rule-bottom last:border-none">
+    <section className="mx-auto max-w-[1200px] px-5 py-14 section-rule last:border-none last:after:hidden">
       {(title || kicker) && (
         <div className="mb-7">
           {kicker && (

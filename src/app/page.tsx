@@ -73,7 +73,7 @@ export default function OverviewPage() {
       </section>
 
       {/* Stats strip */}
-      <div className="rule-top rule-bottom bg-[var(--color-surface)]">
+      <div className="border-t-[3px] border-b-[3px] border-[var(--color-forest-900)] bg-[var(--color-surface)]">
         <div className="mx-auto max-w-[1200px] px-5 py-8 grid grid-cols-2 md:grid-cols-4 gap-8">
           {STATS.map((s) => (
             <div key={s.label}>
