@@ -6,7 +6,7 @@
     "requirements": [
       {
         "id": "1.01",
-        "title": "Written Food Safety ****&**** Quality Policy",
+        "title": "Written Food Safety & Quality Policy",
         "statement": "Facility maintains a written Food Safety & Quality Policy, signed by senior leadership, communicated to all personnel, and reviewed at least annually.",
         "states": "UNIV",
         "category": "ALL-PROD",
@@ -594,7 +594,7 @@
         "category": "ALL-PROD",
         "status": "Mandatory",
         "method": "OBS",
-        "source": "Derived \u2014 grounded in cannabis product**'**s odor/terpene-absorption characteristic",
+        "source": "Derived \u2014 grounded in cannabis product's odor/terpene-absorption characteristic",
         "auditorNote": "No conventional food-GMP analog. Flag chemical storage adjacent to open product bins or curing rooms."
       }
     ]
@@ -1860,13 +1860,13 @@
       },
       {
         "id": "16.04",
-        "title": "5 C****'****s CAPA methodology",
+        "title": "5 C's CAPA methodology",
         "statement": "Corrective Action/Preventive Action (CAPA) responses to audit findings follow a defined format: root-cause analysis, immediate correction, systemic corrective action, and verification-of-effectiveness evidence.",
         "states": "UNIV",
         "category": "ALL-PROD (program governance)",
         "status": "Mandatory",
         "method": "DOC",
-        "source": "SQF Lead Auditor training \u2014 5 C**'**s methodology",
+        "source": "SQF Lead Auditor training \u2014 5 C's methodology",
         "auditorNote": "Direct methodological carryover from SQF Lead Auditor training."
       },
       {
@@ -1910,7 +1910,7 @@
         "category": "ALL-PROD (program governance)",
         "status": "Mandatory",
         "method": "N/A (program governance)",
-        "source": "Derived program-governance requirement synthesizing the recurring **'**verify current rule**'** flags throughout the framework",
+        "source": "Derived program-governance requirement synthesizing the recurring 'verify current rule' flags throughout the framework",
         "auditorNote": "Build a literal tracking document: citation, last-verified date, next-review-due date, responsible party."
       },
       {
