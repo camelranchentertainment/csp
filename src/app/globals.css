@@ -35,6 +35,11 @@
   --color-amber-200: #E9D6A8;
   --color-amber-100: #F3E7C9;
 
+  /* Terracotta (secondary craft accent — earthy counterweight to amber) */
+  --color-terracotta-700: #9C4A2E;
+  --color-terracotta-500: #BE6640;
+  --color-terracotta-100: #F1DCCF;
+
   /* Severity */
   --color-critical: #7A2E22;
   --color-critical-bg: #F3E4DF;
@@ -59,118 +64,137 @@
   --color-forest-900: var(--color-forest-900);
   --color-forest-700: var(--color-forest-700);
   --color-amber-600: var(--color-amber-600);
+  --color-terracotta-700: var(--color-terracotta-700);
   --font-display: var(--font-fraunces);
   --font-body: var(--font-source-serif);
   --font-mono: var(--font-plex-mono);
 }
 
-* {
-  box-sizing: border-box;
+/* ------------------------------------------------------------
+   Base element resets. IMPORTANT: these live in @layer base so
+   Tailwind utility classes (text-white, text-[...], etc.) always
+   win when applied directly to an element — without this layer,
+   plain CSS here would silently override every utility class in
+   the site regardless of specificity (this was a real bug: an
+   unlayered `a { color: inherit }` rule made every button/link
+   text color utility invisible against dark backgrounds).
+   ------------------------------------------------------------ */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body), Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display), Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--color-forest-950);
+  }
+
+  .font-mono, .eyebrow, .tag, .stat-label {
+    font-family: var(--font-mono), ui-monospace, monospace;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  ::selection {
+    background: var(--color-amber-200);
+    color: var(--color-forest-950);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-amber-600);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  }
 }
 
-html {
-  scroll-behavior: smooth;
-}
+/* ------------------------------------------------------------
+   Component-level helper classes. These live in @layer components
+   so a Tailwind utility placed alongside one of these classes in
+   the same className string still wins on any shared property.
+   ------------------------------------------------------------ */
+@layer components {
+  /* Hairline rule, never a filled block */
+  .rule-top    { border-top: 1px solid var(--color-rule); }
+  .rule-bottom { border-bottom: 1px solid var(--color-rule); }
+  .rule-left   { border-left: 1px solid var(--color-rule); }
 
-body {
-  background: var(--color-paper);
-  color: var(--color-ink);
-  font-family: var(--font-body), Georgia, "Times New Roman", serif;
-  font-size: 16px;
-  line-height: 1.65;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
+  /* Bold section-to-section boundary — deliberately heavier than the
+     in-content hairlines above, so major content breaks read clearly
+     at a glance instead of blending together. */
+  .section-rule {
+    border-bottom: 4px solid var(--color-forest-900);
+    position: relative;
+  }
+  .section-rule::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 56px;
+    height: 4px;
+    background: var(--color-amber-500);
+  }
 
-h1, h2, h3, h4, .font-display {
-  font-family: var(--font-display), Georgia, serif;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  color: var(--color-forest-950);
-}
+  /* Left-rule callout — the house style for notices/asides.
+     No fill, no border-radius box, just a rule + indent. */
+  .callout {
+    border-left: 3px solid var(--color-amber-500);
+    padding-left: 1.25rem;
+    margin: 1.75rem 0;
+  }
+  .callout.callout-notice {
+    border-left-color: var(--color-forest-600);
+  }
+  .callout.callout-critical {
+    border-left-color: var(--color-critical);
+  }
 
-.font-mono, .eyebrow, .tag, .stat-label {
-  font-family: var(--font-mono), ui-monospace, monospace;
-}
+  /* Rules-only table: horizontal hairlines, no vertical lines, no shading */
+  .rules-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .rules-table th {
+    text-align: left;
+    font-family: var(--font-mono), monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-ink-muted);
+    font-weight: 500;
+    padding: 0.6rem 0.9rem 0.6rem 0;
+    border-bottom: 1px solid var(--color-rule-strong);
+  }
+  .rules-table td {
+    padding: 0.85rem 0.9rem 0.85rem 0;
+    border-bottom: 1px solid var(--color-rule);
+    vertical-align: top;
+  }
+  .rules-table tr:last-child td {
+    border-bottom: none;
+  }
 
-/* Hairline rule, never a filled block */
-.rule-top    { border-top: 1px solid var(--color-rule); }
-.rule-bottom { border-bottom: 1px solid var(--color-rule); }
-.rule-left   { border-left: 1px solid var(--color-rule); }
-
-/* Bold section-to-section boundary — deliberately heavier than the
-   in-content hairlines above, so major content breaks read clearly at
-   a glance instead of blending together. */
-.section-rule {
-  border-bottom: 3px solid var(--color-forest-900);
-  position: relative;
-}
-.section-rule::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  width: 46px;
-  height: 3px;
-  background: var(--color-amber-500);
-}
-
-/* Left-rule callout — the house style for notices/asides.
-   No fill, no border-radius box, just a rule + indent. */
-.callout {
-  border-left: 3px solid var(--color-amber-500);
-  padding-left: 1.25rem;
-  margin: 1.75rem 0;
-}
-.callout.callout-notice {
-  border-left-color: var(--color-forest-600);
-}
-.callout.callout-critical {
-  border-left-color: var(--color-critical);
-}
-
-/* Rules-only table: horizontal hairlines, no vertical lines, no shading */
-.rules-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.rules-table th {
-  text-align: left;
-  font-family: var(--font-mono), monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--color-ink-muted);
-  font-weight: 500;
-  padding: 0.6rem 0.9rem 0.6rem 0;
-  border-bottom: 1px solid var(--color-rule-strong);
-}
-.rules-table td {
-  padding: 0.85rem 0.9rem 0.85rem 0;
-  border-bottom: 1px solid var(--color-rule);
-  vertical-align: top;
-}
-.rules-table tr:last-child td {
-  border-bottom: none;
-}
-
-.no-scrollbar::-webkit-scrollbar { display: none; }
-.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-
-::selection {
-  background: var(--color-amber-200);
-  color: var(--color-forest-950);
-}
-
-a {
-  color: inherit;
-}
-
-:focus-visible {
-  outline: 2px solid var(--color-amber-600);
-  outline-offset: 2px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 }
